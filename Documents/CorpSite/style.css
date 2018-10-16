@@ -1,0 +1,126 @@
+body {
+	font: 15px, 1.5 Arial, helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: black;
+	background-image: linear-gradient(-45deg, silver, #f4f4f4);
+}
+.button_2 {
+	height: 38;
+	color: white;
+	background: orange;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 20px;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+.button_1 {
+	height: 38px;
+	background: orange;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.header {
+	font-family: Arial;
+	color: #34a853;
+	margin: auto;
+	min-height: 70px;
+	background-image: linear-gradient(-45deg, #eeffdb, #fffdc7);
+	border-bottom: orange 3px solid;
+	padding: 0 20px 0 20px;
+	padding-top: 30px;
+}
+.header #branding {
+	float: left;
+}
+.header #nav {
+	float: right;
+	margin-top: 17px;
+	font-weight: bold;
+}
+.header a {
+	color: #34a853;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+.header a:hover {
+	color: black;
+}
+.header ul {
+	margin: 0;
+	padding: 0;
+}
+.header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+.footer {
+	font-family: Arial;
+	color: white;
+	background-image: linear-gradient(-45deg, #0d0d0d, #262626);
+	padding: 20px;
+	text-align: center;
+}
+.tech {
+	width: 100%;
+	margin: 0px auto;
+	color: black;
+	background-image: linear-gradient(-45deg, silver, white);
+	padding: 1em;
+}
+body, html {
+	height: 100%;
+}
+.parallax {
+	/* The image used */
+	background-image: url("file:///Users/Marketing/Documents/Corp%20Site/IMG_3559.JPG");
+	background-color: #34a853;
+	color: white;
+	font-family: Arial;
+	background-blend-mode: screen;
+	padding: 100px 300px 0 300px;
+	text-align: center;
+	text-shadow: drop-shadow(0, 0.5px);
+	/* Full height */
+	height: 100%;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parralax h1 {}
+.parralax p {
+	font-size: 20px;
+}
+#newsletter {
+	padding: 80px;
+	color: #ffffff;
+	background: #34a853;
+}
+#newsletter h1 {
+	float: left;
+}
+#newsletter form {
+	float: right;
+	margin-top: 27px;
+}
+#newsletter input[type="email"] {
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}

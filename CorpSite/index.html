@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Corporate Website</title>
+	  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="style.css" rel="stylesheet">
+	<link href="main.js" rel="Javascript">
+	<link href="images/favicon.png" rel="shortcut icon">
+</head>
+<body>
+	<div class="header">
+		<div id="branding"><img src="images/logo.png" width="150px"></div>
+		<div>
+			<span class="open-side"><a href="#" onclick="openSlideMenu()"><svg height="25" width="25">
+			<path d="M0,5 30, 5" stroke="#fff" stroke-width="5"></path>
+			<path d="M0,14 30, 14" stroke="#fff" stroke-width="5"></path>
+			<path d="M0,23 30, 23" stroke="#fff" stroke-width="5"></path></svg></a></span>
+		</div>
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="services.html">Services</a>
+				</li>
+				<li>
+					<a class="button ghost" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="side-nav" id="side-menu">
+		<a class="btn-close" href="#" onclick="closeSlideMenu()">&times;</a>
+		<ul>
+			<li>
+				<a href="index.html">HOME</a>
+			</li>
+			<li>
+				<a href="about.html">ABOUT</a>
+			</li>
+			<li>
+				<a href="services.html">SERVICES</a>
+			</li>
+			<li>
+				<a class="button ghost" href="#">CONTACT</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        YOUR NEW WEBSITE
+      </span>
+    </div>
+  </div>
+
+	<div id="main">
+		<script type="text/javascript">
+		  function openSlideMenu(){
+		  document.getElementById('side-menu').style.width = '100%';
+		   document.getElementById('main').style.marginLeft = '250px';
+		  }
+
+		  function closeSlideMenu(){
+		  document.getElementById('side-menu').style.width = '0px';
+		   document.getElementById('main').style.marginLeft = '0px';
+		  }
+
+		</script>
+
+<div id="newsletter">
+	<div class="row">
+		<div class="col-5">
+				<h1>Subscribe To Our Newsletter</h1>
+		</div>
+		<div class="col-5">
+			<form>
+				<input placeholder="Enter Email..." type="email"> <button class="button_1" type="submit">Subscribe</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		<div class="tech">
+
+			<div class="row">
+				<div class="col-12">
+					<h2>Maxamize Revenue</h2>
+				</div><br>
+			</div>
+
+			<div class="row">
+				<div class="col-4">
+					<img src="file:///Users/Marketing/Documents/CorpSite/images/mobile-icons/immigration.png">
+					<h3>Service 1</h3>
+					<p>Lorem Impsum Lorem Impsum Lorem Impsum</p>
+				</div>
+				<div class="col-4">
+					<img src="file:///Users/Marketing/Documents/CorpSite/images/mobile-icons/workvisas.png">
+					<h3>Service 2</h3>
+					<p>Lorem Impsum Lorem Impsum Lorem Impsum</p>
+				</div>
+				<div class="col-4">
+					<img src="file:///Users/Marketing/Documents/CorpSite/images/mobile-icons/video.png">
+					<h3>Service 3</h3>
+					<p>Lorem Impsum Lorem Impsum Lorem Impsum</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="services">
+		<div class="row">
+			<div class="col-5">
+				<h2>Service 1</h2>
+				<p>Lorem Impsum Lorem Impsum Lorem Impsum</p>
+			</div>
+			<div class="col-5">
+				<h2>Service 2</h2>
+				<p>Lorem Impsum Lorem Impsum Lorem Impsum</p>
+			</div>
+			<p>&nbsp;</p><br>
+			<br>
+		</div>
+		<div class="row">
+			<div class="col-11">
+				<h1><a class="button ghost" href="#">Contact us now!</a></h1>
+			</div>
+		</div>
+	</div>
+			<div class="reviews">
+				<br>
+				<div style="color:white;padding:0px;">
+					<div style="color:white;padding:0px;">
+						<font face="Proxima Nova" size="6"><strong>What Our clients Say About The Results</strong></font>
+					</div>
+					<div style="color:gold;padding:5px;">
+						<font face="Proxima Nova" size="10"><strong>★★★★★</strong></font>
+						<div style="color:white;padding:0px;">
+							<font face="Proxima Nova" size="5"><strong>Over 80 5-Star Google Reviews</strong></font>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6">
+							<h2>Service 1</h2>
+							<p>Lorem Impsum Lorem Impsum Lorem Impsum</p>
+						</div>
+						<div class="col-6">
+							<h2>Service 2</h2>
+							<p>Lorem Impsum Lorem Impsum Lorem Impsum</p>
+						</div>
+					</div>
+					<div class="locations">
+						<div class="row">
+							<div class="col-12">
+								<h1>Visit Our Office</h1>
+								<p>Our team will work hard to find your solution</p>
+								<form>
+				<input placeholder="Enter zipcode..." type="text"> <button class="button_1" type="submit">Find office near you</button>
+			</form>
+							</div>
+
+						</div>
+  <div id="map"></div>
+<div id="offices">
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<a class="button loc" href="#">Location 1</a></br></br>
+	<a class="button loc" href="#">Location 2</a></br></br>
+	<a class="button loc" href="#">Location 3</a></br></br>
+	<a class="button loc" href="#">Location 4</a></br></br>
+</div>
+
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoi9li7hUf5sNhwjm3P6v9GAblYnMLLGs&callback=initMap">
+</script>
+
+<style>
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 480px;
+  width: 80%;
+  float: right;
+}
+
+#offices {
+  height: 480px;
+  width: 20%;
+  float: left;
+}
+
+</style>
+<script>
+function initMap() {
+  // Styles a map in night mode.
+    var myLatLng = {lat: 34.151957, lng: -118.255489};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 34.151957, lng: -118.255489},
+    zoom: 8,
+    styles: [
+      {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+      {
+        featureType: 'administrative.locality',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'geometry',
+        stylers: [{color: '#263c3f'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#6b9a76'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry',
+        stylers: [{color: '#38414e'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#212a37'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#9ca5b3'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry',
+        stylers: [{color: '#746855'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#1f2835'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#f3d19c'}]
+      },
+      {
+        featureType: 'transit',
+        elementType: 'geometry',
+        stylers: [{color: '#2f3948'}]
+      },
+      {
+        featureType: 'transit.station',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'geometry',
+        stylers: [{color: '#17263c'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#515c6d'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.stroke',
+        stylers: [{color: '#17263c'}]
+      }
+    ]
+  });
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+}
+</script>
+      <p>&nbsp;</p>
+
+						<img src="images/skyline.png">
+					</div>
+					<div class="prefooter">
+						<div class="row">
+							<div class="col-6">
+								<p><img src="images/social.png" width="150px"></p>
+							</div>
+							<div class="col-6">
+								<p><img src="images/logo.png" width="150px"></p>
+							</div>
+							<div class="col-6">
+								<p><a href="https://www.google.com/maps/dir//Capitol+Hill,+Salt+Lake+City,+UT/@40.7608882,-111.9610867,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8752f5f10058eb89:0xa4b35c4540c11572!2m2!1d-111.8931957!2d40.7783435">Click Here for Directions</a></p>
+							</div>
+						</div>
+						<div class="footer">
+							<p>© 2018 Ricardo Bautista Digital, LLC</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

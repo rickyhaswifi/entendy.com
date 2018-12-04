@@ -1,0 +1,397 @@
+body, html {
+	height: 100%;
+	font:15px, 1.5 helvetica, big_noodle_tiling;
+	margin: 0;
+	line-height:1.8em;
+	color: black;
+	background-image: linear-gradient(-45deg, white, #f4f4f4);
+}
+
+.pimg1 {
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1 {
+	background-image:url("file:///Users/Marketing/Documents/CorpSite/images/dallas-1080.jpg");
+	min-height:80%;
+}
+
+.ptext {
+	font-family: Arial;	
+	font-size: 30px;
+	color: white;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	text-shadow: 0 0 5px black;
+}
+
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+.row {
+	display: flex;
+		justify-content: center;
+		align-items: center;
+	width: 100%;
+}
+.row::after {
+	display: block;
+		justify-content: center;
+	clear: both;
+	content: "";
+}
+.col-1 {
+	width: 8.33%
+}
+;
+.col-2 {
+	width: 16.66%
+}
+;
+.col-3 {
+	width: 25%
+}
+;
+.col-4 {
+	width: 33.33%
+}
+;
+.col-5 {
+	width: 41.66%
+}
+;
+.col-6 {
+	width: 50%
+}
+;
+.col-7 {
+	width: 58.33%
+}
+;
+.col-8 {
+	width: 66.66%
+}
+;
+.col-9 {
+	width: 75%
+}
+;
+.col-10 {
+	width: 83.33%
+}
+;
+.col-11 {
+	width: 91.66%
+}
+;
+.col-12 {
+	width: 100%
+}
+;
+* {
+	box-sizing: border-box;
+}
+[class*="col-"] {
+	padding: 20px;
+	margin: 0 auto;
+	float: left;
+}
+
+.button.ghost, .button.ghost:visited {
+	background: transparent;
+	border: 2px solid #fc0043;
+	margin: -8px;
+	padding: 5px;
+}
+.button.ghost:hover, .button.ghost:active {
+	background: #fc0043;
+	color: #fff;
+	border: 2px solid transparent;
+}
+
+.button.loc, .button.ghost:visited {
+	background: transparent;
+	border: 2px solid #fc0043;
+	margin: 30px;
+	padding: 15px 50px;
+}
+.button.loc:hover, .button.ghost:active {
+	background: #fc0043;
+	color: #fff;
+	border: 2px solid transparent;
+}
+.side-nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	box-shadow: 0 50px 5px #000;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #1e335d;
+	opacity: 0.9;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+	text-transform: capitalize;
+}
+.side-nav a {
+	padding: 10px 10px 10px 30px;
+	text-decoration: none;
+	text-shadow: 0 1px 5px #000;
+	font-size: 22px;
+	color: #fff;
+	display: block;
+	transition: 0.3s;
+	text-align: center;
+	text-transform: capitalize;
+}
+.side-nav a:hover {
+	color: #fff;
+}
+.side-nav .btn-close {
+	position: absolute;
+	top: 0;
+	right: 22px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+/* #main {
+  transition: margin-left 0.5s;
+  padding: 0px;
+  overflow: hidden;
+  width: 100%;
+}
+*/
+
+li {
+	list-style: none;
+	line-height: 2em;
+	text-align: left;
+}
+.button_2 {
+	height: 38;
+	color: white;
+	background: #fc0043;
+	border: 0;
+	padding-left: 22px;
+	padding-right: 22px;
+	margin: auto;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 20px;
+}
+/* .container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+*/
+
+.button_1 {
+	height: 38px;
+	color: #fff;
+	background: #fc0043;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.header {
+	font-family: Arial;
+	color: #00aeef;
+	margin: auto;
+	min-height: 70px;
+	background-image: linear-gradient(-45deg, #1e335d, #1c3b7a);
+	border-bottom: white 3px solid;
+	padding: 0 20px 0 20px;
+	padding-top: 30px;
+}
+.header #branding {
+	float: left;
+}
+.header #nav {
+	float: right;
+	margin-top: 5px;
+	font-weight: bold;
+}
+.header a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+.header a:hover {
+	color: #fc0043;
+}
+.header ul {
+	margin: 0;
+	padding: 0;
+}
+.header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+/* .parallax {
+
+	background-image: url("file:///Users/Marketing/Documents/CorpSite/images/dallas-1080.jpg");
+	background-color: #01172a;
+	height: 600px;
+	/* Full height */
+
+/* Create the parallax scrolling effect 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+*/
+
+#newsletter {
+	height: 100px;
+	color: #ffffff;
+	background: #1e335d;
+	margin: 0;
+}
+#newsletter h1 {
+	float: left;
+}
+#newsletter form {
+	float: right;
+	margin-top: 5px;
+}
+#newsletter input[type="email"] {
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+.tech .row{
+	color: black;
+	background-color: #f4f4f4;
+	text-align: center;
+	justify-content: center;
+	display: block;
+}
+
+.tech img {
+	width: 25%;
+}
+
+.services {
+	text-align: center;
+	color: #4e4e4e;
+	background-color: #ddf8f7;
+	width: 100%;
+}
+
+.services a {
+	color: #01172a;
+	text-decoration: none;
+}
+.reviews {
+	color: #fff;
+	text-align: center;
+	background-color: #01172a;
+	width: 100%;
+}
+.locations {
+	color: #000;
+	text-align: center;
+	background-color: #f4f4f4;
+	width: 100%;
+}
+
+.locations form {
+	float: right;
+	margin-top: 5px;
+}
+.locations input[type="email"] {
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+.locations img{
+	width: 100%;
+	position: center;
+	margin: -9px;
+}
+
+.prefooter {
+	color: #fff;
+	background-color: #1e335d;
+}
+.prefooter a {
+	color: #def8f7;
+	text-decoration: none;
+}
+.prefooter a:hover {
+	color: #fc0043;
+	text-decoration: none;
+}
+.footer {
+	font-family: Arial;
+	color: white;
+	background-image: linear-gradient(-45deg, #1f1f1f, #000);
+	padding: 5px;
+	text-align: center;
+}
+
+@media(max-width: 568px) {
+	#nav {
+		display: none;
+	}
+	#bantop {
+		display: none;
+	}
+	span.open-side {
+		display: all;
+	}
+}
+@media(min-width: 568px) {
+	.open-slide {
+		display: none;
+	}
+	#bantopmobile {
+		display: none;
+	}
+	span.open-side {
+		display: none;
+	}
+}

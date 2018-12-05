@@ -330,6 +330,7 @@ li {
 	background-color: #01172a;
 	width: 100%;
 }
+
 .locations {
 	color: #000;
 	text-align: center;
@@ -354,26 +355,39 @@ li {
     grid-template-rows: 4, minmax(120px, auto); 
     background-color: #f4f4f4;
 	max-width: 100%;
+	border: 2px solid #202020;
 }
 
 .one{
 grid-column: 1/1; 
 text-align: center;
+background-color: #fc0043;
+	padding: 30px 0px 30px 0px;
+	color: white;
 }
 
 .two{
 grid-column: 1/1; 
     	text-align: center;
+    	background-color: #ddf8f7;
+    		padding: 30px 0px 30px 0px;
+	color: #4e4e4e;
 }
 
 .three{
 grid-column: 1/1; 
     	text-align: center;
+background-color: #fc0043;
+	padding: 30px 0px 30px 0px;
+		color: white;
 }
 
 .four{
 grid-column: 1/1;  
 text-align: center;
+background-color: #ddf8f7;
+	padding: 30px 0px 30px 0px;
+	color: #4e4e4e;
 }
 
 .five{
@@ -405,10 +419,10 @@ grid-row: 1/5;
 	background: #777;
 }
 
-.locations img{
+.sky img{
 	width: 100%;
 	position: center;
-	margin: -9px;
+	margin: 0px;
 	background-color: #f4f4f4;
 }
 

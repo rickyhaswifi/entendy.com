@@ -113,9 +113,7 @@
 
 			</div>
 
-<p>&nbsp;</p>
 		<div class="about">
-<p>&nbsp;</p>
 		<div class="aboutborder"><span class="border">
         About us
       </span></div>
@@ -124,7 +122,6 @@
 			</div>
 
 			<div class="abouttext">
-        <p>&nbsp;</p>
 				<h2>Your Name!</h2>
 				<p>15+ Years Expierience</p>
 				<p>serving your county!</p>
@@ -199,11 +196,11 @@
 </div>
 
 <div id="content-mobile">
-<div class="onemob"><button class="map_odd" onclick="initMap()">SLC</button></div>
-<div class="twomob"><button class="map_even" onclick="initMaplehi()">LEHI</button></div>
-<div class="threemob"><button class="map_odd" onclick="initMapstge()">ST. GEORGE</button></div>
-<div class="fourmob"><button class="map_even" onclick="initMaplvnv()">LAS VEGAS</button></div>
-<div class="mobmap"><div id="map"></div></div>
+<div class="onemob"><button class="map_odd" onclick="initMapmob()">SLC</button></div>
+<div class="twomob"><button class="map_even" onclick="initMaplehimob()">LEHI</button></div>
+<div class="threemob"><button class="map_odd" onclick="initMapstgemob()">ST. GEORGE</button></div>
+<div class="fourmob"><button class="map_even" onclick="initMaplvnvmob()">LAS VEGAS</button></div>
+<div class="mapmob"><div id="mapmob"></div></div>
 </div>
 
 
@@ -211,7 +208,7 @@
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoi9li7hUf5sNhwjm3P6v9GAblYnMLLGs&callback=initMap">
 </script>
-
+<!--DESKTOP -->
 <script>
 function initMap() {
   // Styles a map in night mode.
@@ -595,11 +592,398 @@ function initMaplvnv() {
   });
 }
 </script>
+<!--END DESKTOP -->
+
+<!-- MOBILE JAVASCRIPT -->
+<script>
+function initMapmob() {
+  // Styles a map in night mode.
+    var saltlake = {lat: 40.758701, lng: -111.876183};
+  var map = new google.maps.Map(document.getElementById('mapmob'), {
+    center: {lat: 40.758701, lng: -111.876183},
+    zoom: 12,
+    styles: [
+      {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+      {
+        featureType: 'administrative.locality',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'geometry',
+        stylers: [{color: '#263c3f'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#6b9a76'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry',
+        stylers: [{color: '#38414e'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#212a37'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#9ca5b3'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry',
+        stylers: [{color: '#746855'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#1f2835'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#f3d19c'}]
+      },
+      {
+        featureType: 'transit',
+        elementType: 'geometry',
+        stylers: [{color: '#2f3948'}]
+      },
+      {
+        featureType: 'transit.station',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'geometry',
+        stylers: [{color: '#17263c'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#515c6d'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.stroke',
+        stylers: [{color: '#17263c'}]
+      }
+    ]
+  });
+  var marker = new google.maps.Marker({
+    position: saltlake,
+    map: map,
+    title: 'Hello World!'
+  });
+}
+</script>
+
+<script>
+function initMaplehimob() {
+  // Styles a map in night mode.
+    var lehi = {lat: 40.391617, lng: -111.850769};
+  var map = new google.maps.Map(document.getElementById('mapmob'), {
+    center: {lat: 40.391617, lng: -111.850769},
+    zoom: 12,
+    styles: [
+      {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+      {
+        featureType: 'administrative.locality',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'geometry',
+        stylers: [{color: '#263c3f'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#6b9a76'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry',
+        stylers: [{color: '#38414e'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#212a37'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#9ca5b3'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry',
+        stylers: [{color: '#746855'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#1f2835'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#f3d19c'}]
+      },
+      {
+        featureType: 'transit',
+        elementType: 'geometry',
+        stylers: [{color: '#2f3948'}]
+      },
+      {
+        featureType: 'transit.station',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'geometry',
+        stylers: [{color: '#17263c'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#515c6d'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.stroke',
+        stylers: [{color: '#17263c'}]
+      }
+    ]
+  });
+  var marker = new google.maps.Marker({
+    position: lehi,
+    map: map,
+    title: 'Hello World!'
+  });
+}
+</script>
+
+<script>
+function initMapstgemob() {
+  // Styles a map in night mode.
+    var stge = {lat: 37.095169, lng: -113.575974};
+  var map = new google.maps.Map(document.getElementById('mapmob'), {
+    center: {lat: 37.095169, lng: -113.575974},
+    zoom: 12,
+    styles: [
+      {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+      {
+        featureType: 'administrative.locality',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'geometry',
+        stylers: [{color: '#263c3f'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#6b9a76'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry',
+        stylers: [{color: '#38414e'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#212a37'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#9ca5b3'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry',
+        stylers: [{color: '#746855'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#1f2835'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#f3d19c'}]
+      },
+      {
+        featureType: 'transit',
+        elementType: 'geometry',
+        stylers: [{color: '#2f3948'}]
+      },
+      {
+        featureType: 'transit.station',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'geometry',
+        stylers: [{color: '#17263c'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#515c6d'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.stroke',
+        stylers: [{color: '#17263c'}]
+      }
+    ]
+  });
+  var marker = new google.maps.Marker({
+    position: stge,
+    map: map,
+    title: 'Hello World!'
+  });
+}
+</script>
+
+<script>
+function initMaplvnvmob() {
+  // Styles a map in night mode.
+    var lvnv = {lat: 36.181271, lng: -115.134132};
+  var map = new google.maps.Map(document.getElementById('mapmob'), {
+    center: {lat: 36.181271, lng: -115.134132},
+    zoom: 12,
+    styles: [
+      {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+      {
+        featureType: 'administrative.locality',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'geometry',
+        stylers: [{color: '#263c3f'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#6b9a76'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry',
+        stylers: [{color: '#38414e'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#212a37'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#9ca5b3'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry',
+        stylers: [{color: '#746855'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#1f2835'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#f3d19c'}]
+      },
+      {
+        featureType: 'transit',
+        elementType: 'geometry',
+        stylers: [{color: '#2f3948'}]
+      },
+      {
+        featureType: 'transit.station',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#d59563'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'geometry',
+        stylers: [{color: '#17263c'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#515c6d'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.stroke',
+        stylers: [{color: '#17263c'}]
+      }
+    ]
+  });
+  var marker = new google.maps.Marker({
+    position: lvnv,
+    map: map,
+    title: 'Hello World!'
+  });
+}
+</script>
+<!-- END MOBILE JS -->
 
 <p>&nbsp;</p>
 					</div>
 
-					<div class="contact">
+					<div class="contactdesktop">
 						<center><h1>CONTACT US TODAY!</h1>
 						<p><form>
 	<div><input type="fname" name="" placeholder="First Name"> <input type="lname" name="" placeholder="Last name"> <input type="email" placeholder="email@gmail.com"> <button class="button_1" type="submit">Submit</button></div>
@@ -607,25 +991,33 @@ function initMaplvnv() {
 <p>&nbsp;</p>
 					</div>
 
+					<div class="contactmobile">
+						<center><h1>CONTACT US TODAY!</h1>
+						<p><form>
+	<div><input type="fname" name="" placeholder="First Name"> <input type="lname" name="" placeholder="Last name"> <input class="email" type="email" placeholder="email@gmail.com"> <button class="button_1" type="submit">Submit</button></div>
+</form></p></center>
+<p>&nbsp;</p>
+					</div>
+
 					<div class="sky">
 						<img src="images/skyline.png">
 					</div>
+
 					<div class="prefooter">
-						<div class="row">
-							<div class="col-6">
+							<div class="pfsoc">
 								<p><img src="images/social.png" width="150px"></p>
 							</div>
-							<div class="col-6">
+							<div class="pflog">
 								<p><img src="images/logo.png" width="150px"></p>
 							</div>
-							<div class="col-6">
+							<div class="pfdir">
 								<p><a href="https://www.google.com/maps/dir//Capitol+Hill,+Salt+Lake+City,+UT/@40.7608882,-111.9610867,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8752f5f10058eb89:0xa4b35c4540c11572!2m2!1d-111.8931957!2d40.7783435">Click Here for Directions</a></p>
 							</div>
-						</div>
+					</div>
 						<div class="footer">
 							<p>© 2018 Ricardo Bautista Digital, LLC</p>
 						</div>
-					</div>
+				
 				</div>
 			</div>
 		</div>

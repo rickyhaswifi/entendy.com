@@ -26,10 +26,10 @@
 					<a href="#about">About</a>
 				</li>
 				<li>
-					<a href="#services">Services</a>
+					<a href="#QA">FAQ</a>
 				</li>
 				<li>
-					<a class="button ghost" href="#">Contact</a>
+					<a class="button ghost" href="#locations">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -113,7 +113,7 @@
 
 			</div>
 
-		<div class="about">
+		<div class="about" id="about">
 		<div class="aboutborder"><span class="border">
         About us
       </span></div>
@@ -130,61 +130,112 @@
 
 		</div>
 
+<!-- START QA-->
+<div class="QA" id="QA">
+
+
+<div class="QAH1"><h1>Common Q&As</h1><div>
+
+<button class="accordion"><h3>Question 1</h3></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion"><h3>Question 2</h3></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+<button class="accordion"><h3>Question 3</h3></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion"><h3>Question 4</h3></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion"><h3>Question 5</h3></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+</div>
+
+<script type="text/javascript">
+	var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+	<!-- END QA-->
+
 	<div class="reviews">
 		<div class="reviewstext">
 			<br>
-			<strong>What Our clients Say About The Results</strong>
+			<h1><strong>What Our clients Say About The Results</strong></h1>
+				</div>
+<!-- slider code -->
+<div class="slider">
+  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+  <div class="slider__inner">
+    <div class="slider__contents"><i class="slider__image fa fa-user-circle"></i>
+      <h2 class="slider__caption">REVIEW 1</h2>
+      <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+    </div>
+    <div class="slider__contents"><i class="slider__image fa fa-user-circle"></i>
+      <h2 class="slider__caption">REVIEW 2</h2>
+      <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+    </div>
+    <div class="slider__contents"><i class="slider__image fa fa-user-circle"></i>
+      <h2 class="slider__caption">REVIEW 3</h2>
+      <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+    </div>
+    <div class="slider__contents"><i class="slider__image fa fa-user-circle"></i>
+      <h2 class="slider__caption">REVIEW 4</h2>
+      <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+    </div>
+  </div>
+</div>
 
-<div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
-		<div class="testimonial4_header">
-		</div>
-		<ol class="carousel-indicators">
-			<li data-target="#testimonial4" data-slide-to="0" class="active"></li>
-			<li data-target="#testimonial4" data-slide-to="1"></li>
-			<li data-target="#testimonial4" data-slide-to="2"></li>
-		</ol>
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<div class="testimonial4_slide">
-					<!-- <img src="" class="img-circle img-responsive" /> -->
-					<p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
-					<h4>Rayan Hooda</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="testimonial4_slide">
-					<!-- <img src="" class="img-circle img-responsive" /> -->
-					<p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
-					<h4>Debjyoti Das</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="testimonial4_slide">
-					<!-- <img src="" class="img-circle img-responsive" /> -->
-					<p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
-					<h4>Teema Hanna</h4>
-				</div>
-			</div>
-		</div>
-		<a class="left carousel-control" href="#testimonial4" role="button" data-slide="prev">
-			<span class="fa fa-chevron-left"></span>
-		</a>
-		<a class="right carousel-control" href="#testimonial4" role="button" data-slide="next">
-			<span class="fa fa-chevron-right"></span>
-		</a>
-	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- slider close -->
 
+
+<div class="reviewstext">
 			<p>&nbsp;</p>
-			<div style="color:gold;padding:5px;"><strong>★★★★★</strong></div>
-				<strong>Over 80 5-Star Google Reviews</strong> <span class="border"></span>
+			<div style="color:gold;padding:5px;"><h2><strong>★★★★★</strong></h2></div>
+				<h1><strong>Over 80 5-Star Google Reviews</strong></h1>
+			</div>
 		</div>
 	</div>
-					<div class="locations">
+
+
+
+					<div class="locations" id="locations">
 								<h1>Visit An Office Near You!</h1>
 								<p>Our team will work hard to find your solution</p>
-						
+
 		</div>
 
 <div id="content">
@@ -1017,7 +1068,7 @@ function initMaplvnvmob() {
 						<div class="footer">
 							<p>© 2018 Ricardo Bautista Digital, LLC</p>
 						</div>
-				
+
 				</div>
 			</div>
 		</div>

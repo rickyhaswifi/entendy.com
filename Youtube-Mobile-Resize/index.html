@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <meta name="description" content="Thoughts and Prayers Tweet Generator">
+  <meta name="keywords" content="twitter generator, thoughts and prayers tweet generator">
+  <meta name="author" content="Ricardo Bautista">
+  <meta name="viewport" content="width=device-width">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78574823-1"></script>
+        <link rel="stylesheet" href="style.css" />
+	<title>Thoughts & Prayers Tweet Generator</title>
+  <link rel="icon" 
+      type="image/png" 
+      href="http://www.millawi.com.au/wp-content/uploads/2016/02/img_Square_Blue.jpg">
+</head>
+<body>
+   <nav class="navbar">
+    <span class="open-side">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="25" height="25">
+          <path d="M0,5 30, 5" stroke="#fff" stroke-width="5"/>
+          <path d="M0,14 30, 14" stroke="#fff" stroke-width="5"/>
+          <path d="M0,23 30, 23" stroke="#fff" stroke-width="5"/>
+        </svg>
+</a>
+</span>
+
+<ul class="navbar-nav">
+  <li><a href="http://entendy.com/">Youtube Subscribe Generator</a></li>
+  <li><a href="http://entendy.com/tweet">Thoughts & Prayers Generator</a></li>
+</ul>
+</nav>
+
+<div id="side-menu" class="side-nav">
+  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+  <a href="http://entendy.com/">Youtube</a>
+  <a href="http://entendy.com/tweet">Tweet</a>
+</div>
+
+
+
+<div id="main">
+
+<script type="text/javascript">
+function openSlideMenu(){
+  document.getElementById('side-menu').style.width = '250px';
+   document.getElementById('main').style.marginLeft = '250px';
+}
+
+function closeSlideMenu(){
+  document.getElementById('side-menu').style.width = '0px';
+   document.getElementById('main').style.marginLeft = '0px';
+}
+
+</script>
+  <center>
+    <div id="tweetheader">
+<h1>Youtube Mobile iFrame Generator</h1>
+<H2>Copy & Paste Code</H2>
+</div>
+<div id="topads">
+   
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+      </script> <!-- entendy-header -->
+      <ins class="adsbygoogle" data-ad-client="ca-pub-7825991845252848" data-ad-format="auto" data-ad-slot="3304844759" data-full-width-responsive="true" style="display:block"></ins> 
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+</div>
+</div>
+<div id="tweetbody">
+<form id="tweetForm">
+	iFrame: <input type="text" name="tweetTextName" placeholder="iframe.." id="tweetTextName">
+</form>
+</br>
+
+<div>
+<button id="tweetGen" onclick="myFunction()">Click To Generate Code</button>
+</div></br>
+<textarea id="tweetOut" rows="6" cols="70" onclick="this.focus();this.select()" readonly="readonly"></textarea>
+
+<script type="text/javascript">
+	function myFunction() {
+    var x = document.getElementById("tweetForm");
+    var text = ' <div class="video-container"> ' + "";
+    var i
+    for (i = 0; i < x.length ;i++) {
+        text += x.elements[i].value + '  '  + ' </div>  <style> .video-container { position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden; } .video-container iframe, .video-container object, .video-container embed { position:absolute; top:0; left:0; width:100%; height:100%; }  </style>';
+    }
+    document.getElementById("tweetOut").innerHTML = text;
+}</script>
+
+<!-- select text-->
+<script type="text/javascript">
+    
+    function SelectText(element) {
+    var doc = document,
+        text = doc.getElementById(element),
+        range,
+        selection;
+    if (doc.body.createTextRange) {
+        range = document.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+    } else if (window.getSelection) {
+        selection = window.getSelection();        
+        range = document.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+}
+$(function() {
+    $('p').click(function () {
+        SelectText("demo");
+    });
+});
+
+</script>
+</br>
+<button id="copyBlock1">Click To Copy</button> <span id="copyAnswer"></span>
+
+<script type="text/javascript">
+  // Setup the variables
+var textarea = document.getElementById("tweetOut");
+var answer  = document.getElementById("copyAnswer");
+var copy    = document.getElementById("copyBlock1");
+copy.addEventListener('click', function(e) {
+
+   // Select some text (you could also create a range)
+   textarea.select(); 
+
+   // Use try & catch for unsupported browser
+   try {
+
+       // The important part (copy selected text)
+       var ok = document.execCommand('copy');
+
+       if (ok) answer.innerHTML = 'Copied!';
+       else    answer.innerHTML = 'Unable to copy!';
+   } catch (err) {
+       answer.innerHTML = 'Unsupported Browser!';
+   }
+});
+</script>
+
+</br>
+</br>
+<div>
+
+<!--<div class="image-cropper">
+<img src="https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_400x400.jpg">
+</div>
+<p><i>I use this website every day! <a href="https://twitter.com/realDonaldTrump/status/1012437964373123072" target="_blank">#Incredible</a></i></p>
+</div>
+-->
+<p>Mobile CSS iFrame Generator for YouTube</p>
+
+<div id="bodyads">
+    <div id="bantop">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+      </script> <!-- entendy-header -->
+      <ins class="adsbygoogle" data-ad-client="ca-pub-7825991845252848" data-ad-format="auto" data-ad-slot="3304844759" data-full-width-responsive="true" style="display:block"></ins> 
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+</div>
+</div>
+</br>
+</div>
+<div id="footer">
+  <p>1235 Digital, LLC. - Code by Ricardo Bautista</p>
+  <p><a href="http://entendy.com/">Youtube Subscribe Link Generator</a> - <a href="http://entendy.com/tweet">Thoughts & Prayers Tweet Generator</a></p>
+</div>
+</center>
+</body>
+</html>	
+</!DOCTYPE html>

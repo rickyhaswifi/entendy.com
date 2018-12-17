@@ -7,6 +7,15 @@ body, html {
 	color: black;
 }
 
+#ads {
+  color: black;
+  background-color: #f4f4f4;
+  border-bottom: #444 3px solid;
+  width: 100%
+  padding: 20px;
+  margin: 0;
+}
+
 .ptext p{
 	  position:absolute;
   top:50%;

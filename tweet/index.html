@@ -1,70 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-  <meta name="description" content="Thoughts and Prayers Tweet Generator">
-  <meta name="keywords" content="twitter generator, thoughts and prayers tweet generator">
-  <meta name="author" content="Ricardo Bautista">
-  <meta name="viewport" content="width=device-width">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78574823-1"></script>
-        <link rel="stylesheet" href="style.css" />
 	<title>Thoughts & Prayers Tweet Generator</title>
-  <link rel="icon" 
-      type="image/png" 
-      href="http://www.millawi.com.au/wp-content/uploads/2016/02/img_Square_Blue.jpg">
+	  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta name="keywords" content="twitter generator, thoughts and prayers tweet generator">
+  <meta name="author" content="Ricardo Bautista">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="style.css" rel="stylesheet">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="main.js" rel="Javascript">
+	<link href="https://github.com/rickyhaswifi/rickyhaswifi.github.io/blob/master/images/favicon.png?raw=true" rel="shortcut icon">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible"><!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78574823-1">
+</script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-78574823-1');
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
+<script>
+ (adsbygoogle = window.adsbygoogle || []).push({
+	 google_ad_client: "ca-pub-7825991845252848",
+	 enable_page_level_ads: true
+ });
+</script>
 </head>
 <body>
-   <nav class="navbar">
-    <span class="open-side">
-      <a href="#" onclick="openSlideMenu()">
-        <svg width="25" height="25">
-          <path d="M0,5 30, 5" stroke="#fff" stroke-width="5"/>
-          <path d="M0,14 30, 14" stroke="#fff" stroke-width="5"/>
-          <path d="M0,23 30, 23" stroke="#fff" stroke-width="5"/>
-        </svg>
-</a>
-</span>
+	<div class="header">
+		<div id="branding"><a href="#"><img src="https://github.com/rickyhaswifi/rickyhaswifi.github.io/blob/master/images/entendy-blk.png?raw=true"></a></div>
+		<div>
+			<span class="open-side"><a href="#" onclick="openSlideMenu()"><svg height="25" width="25">
+			<path d="M0,5 30, 5" stroke="#000" stroke-width="5"></path>
+			<path d="M0,14 30, 14" stroke="#000" stroke-width="5"></path>
+			<path d="M0,23 30, 23" stroke="#000" stroke-width="5"></path></svg></a></span>
+		</div>
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="http://entendy.com/">Subscribe</a>
+				</li>
+				<li>
+					<a href="http://entendy.com/tweet/">Thoughts & Prayers</a>
+				</li>
+				<li>
+					<a href="http://entendy.com/Youtube-Mobile-Resize/">Responsive Resize</a>
+				</li>
+				<li>
+					<a href="http://entendy.com/CorpSite/">Portfolio</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="side-nav" id="side-menu">
+		<a class="btn-close" href="#" onclick="closeSlideMenu()">&times;</a>
+		<ul>
+			<li>
+				<a href="http://entendy.com/">Subscribe</a>
+			</li>
+			<li>
+				<a href="http://entendy.com/tweet/">Thoughts & Prayers</a>
+			</li>
+			<li>
+				<a href="http://entendy.com/Youtube-Mobile-Resize/">Responsive Resize</a>
+			</li>
+			<li>
+				<a href="http://entendy.com/CorpSite/">Portfolio</a>
+			</li>
+		</ul>
+	</div>
 
-<ul class="navbar-nav">
-  <li><a href="http://entendy.com/">Youtube Subscribe Generator</a></li>
-  <li><a href="http://entendy.com/tweet">Thoughts & Prayers Generator</a></li>
-</ul>
-</nav>
+	<div class="pimg1">
+    <div class="ptext">
+  <div><h1>Thoughts & Prayers<br>Tweet Generator</h1></div>
+    </div>
+  </div>
 
-<div id="side-menu" class="side-nav">
-  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-  <a href="http://entendy.com/">Youtube</a>
-  <a href="http://entendy.com/tweet">Tweet</a>
+	<div id="ads">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+	</script> <!-- entendy-header -->
+	<ins class="adsbygoogle" data-ad-client="ca-pub-7825991845252848" data-ad-format="auto" data-ad-slot="3304844759" data-full-width-responsive="true" style="display:block"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
 </div>
 
+	<div id="main">
+		<script type="text/javascript">
+		  function openSlideMenu(){
+		  document.getElementById('side-menu').style.width = '100%';
+		   document.getElementById('main').style.marginLeft = '250px';
+		  }
 
+		  function closeSlideMenu(){
+		  document.getElementById('side-menu').style.width = '0px';
+		   document.getElementById('main').style.marginLeft = '0px';
+		  }
 
-<div id="main">
-
-<script type="text/javascript">
-function openSlideMenu(){
-  document.getElementById('side-menu').style.width = '250px';
-   document.getElementById('main').style.marginLeft = '250px';
-}
-
-function closeSlideMenu(){
-  document.getElementById('side-menu').style.width = '0px';
-   document.getElementById('main').style.marginLeft = '0px';
-}
-
-</script>
-  <center>
-    <div id="tweetheader">
-<h1>"Thoughts & Prayers" Tweet Generator</h1>
-<H2>Who do your thoughts & prayers go out to?</H2>
+		</script>
 </div>
+
+<center>
 <div id="topads">
-    <div id="bantop">
-  <a href="https://refer.discover.com/s/5srte" target="_blank"><img src="https://drive.google.com/uc?id=1kuAG0ga1zMYs3aGiOyzzGxvgqqf8Xd5H"></img></a>
-</div>
-<div id="bantopmobile">
-  <a href="https://refer.discover.com/s/5srte" target="_blank"><img src="https://drive.google.com/uc?id=1kv9BCLXxbBjrQyGNBG4tNkt0XRuo0Ljl"></img></a>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
       </script> <!-- entendy-header -->
       <ins class="adsbygoogle" data-ad-client="ca-pub-7825991845252848" data-ad-format="auto" data-ad-slot="3304844759" data-full-width-responsive="true" style="display:block"></ins> 
@@ -72,6 +115,9 @@ function closeSlideMenu(){
       (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
 </div>
+
+<div id="tweetheader">
+<H2>Who do your thoughts & prayers go out to?</H2>
 </div>
 <div id="tweetbody">
 <form id="tweetForm">
@@ -180,28 +226,25 @@ Tweet</a>
 </div>
 -->
 <p>Thank you for trying out the <a href="https://en.wikipedia.org/wiki/Thoughts_and_prayers" target="_blank">#ThoughtsAndPrayers</a> tweet generator.</p><p> Are you a politician? Save even more time by using a digital social media </br>manager with bulk scheduling of 100s of thoughts and prayers! <a href="https://signup.hootsuite.com/pro-ent-na-english-r10/?utm_source=google&utm_medium=cpc&utm_campaign=selfserve-bau-na-en--us-pua-google_search_branded_exact-&utm_term=hootsuite&gclid=Cj0KCQiA2o_fBRC8ARIsAIOyQ-krzRGNAVwoWKjAYFu-rzw2ILwAooMVO-9zACIkyDIj0od4ciDckLMaApppEALw_wcB" target="_blank">Try Hootsuite Free!</a></p>
-
-<div id="bodyads">
-    <div id="bantop">
-  <a href="http://shaved.by/kVE2N" target="_blank"><img src="https://drive.google.com/uc?id=1EGp_KIWVb6yiQ1H9USuFveYj3Ag0mNTC"></img></a>
-</div>
-<div id="bantopmobile">
-  <a href="http://shaved.by/kVE2N" target="_blank"><img src="https://drive.google.com/uc?id=1SM8gWkbV0MRGHOaEEnuGMtEvOQo8ZtcB"></img></a>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-      </script> <!-- entendy-header -->
-      <ins class="adsbygoogle" data-ad-client="ca-pub-7825991845252848" data-ad-format="auto" data-ad-slot="3304844759" data-full-width-responsive="true" style="display:block"></ins> 
-      <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-</div>
-</div>
-</br>
-</div>
-<div id="footer">
-  <p>1235 Digital, LLC. - Code by Ricardo Bautista</p>
-  <p><a href="http://entendy.com/">Youtube Subscribe Link Generator</a> - <a href="http://entendy.com/tweet">Thoughts & Prayers Tweet Generator</a></p>
-</div>
+<p>&nbsp;</p>
 </center>
+</div>
+<div id="ads">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script> <!-- entendy-header -->
+<ins class="adsbygoogle" data-ad-client="ca-pub-7825991845252848" data-ad-format="auto" data-ad-slot="3304844759" data-full-width-responsive="true" style="display:block"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+						<div class="footer">
+							<p>© 2018 Ricardo Bautista Digital, LLC</p>
+						</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
-</html>	
-</!DOCTYPE html>
+</html>

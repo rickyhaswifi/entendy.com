@@ -1,179 +1,258 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-  <meta name="description" content="Thoughts and Prayers Tweet Generator">
-  <meta name="keywords" content="twitter generator, thoughts and prayers tweet generator">
-  <meta name="author" content="Ricardo Bautista">
-  <meta name="viewport" content="width=device-width">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78574823-1"></script>
-        <link rel="stylesheet" href="style.css" />
-	<title>Thoughts & Prayers Tweet Generator</title>
-  <link rel="icon" 
-      type="image/png" 
-      href="http://www.millawi.com.au/wp-content/uploads/2016/02/img_Square_Blue.jpg">
+	<title>Responsive iFrame Generator for Youtube</title>
+	  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="style.css" rel="stylesheet">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="main.js" rel="Javascript">
+	<link href="https://github.com/rickyhaswifi/rickyhaswifi.github.io/blob/master/images/favicon.png?raw=true" rel="shortcut icon">
 </head>
 <body>
-   <nav class="navbar">
-    <span class="open-side">
-      <a href="#" onclick="openSlideMenu()">
-        <svg width="25" height="25">
-          <path d="M0,5 30, 5" stroke="#fff" stroke-width="5"/>
-          <path d="M0,14 30, 14" stroke="#fff" stroke-width="5"/>
-          <path d="M0,23 30, 23" stroke="#fff" stroke-width="5"/>
-        </svg>
-</a>
-</span>
+	<div class="header">
+		<div id="branding"><a href="#"><img src="https://github.com/rickyhaswifi/rickyhaswifi.github.io/blob/master/images/entendy-blk.png?raw=true"></a></div>
+		<div>
+			<span class="open-side"><a href="#" onclick="openSlideMenu()"><svg height="25" width="25">
+			<path d="M0,5 30, 5" stroke="#000" stroke-width="5"></path>
+			<path d="M0,14 30, 14" stroke="#000" stroke-width="5"></path>
+			<path d="M0,23 30, 23" stroke="#000" stroke-width="5"></path></svg></a></span>
+		</div>
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="http://entendy.com/">Subscribe</a>
+				</li>
+				<li>
+					<a href="http://entendy.com/tweet/">Thoughts & Prayers</a>
+				</li>
+				<li>
+					<a href="http://entendy.com/Youtube-Mobile-Resize/">Responsive Resize</a>
+				</li>
+				<li>
+					<a href="http://entendy.com/CorpSite/">Portfolio</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="side-nav" id="side-menu">
+		<a class="btn-close" href="#" onclick="closeSlideMenu()">&times;</a>
+		<ul>
+			<li>
+				<a href="http://entendy.com/">Subscribe</a>
+			</li>
+			<li>
+				<a href="http://entendy.com/tweet/">Thoughts & Prayers</a>
+			</li>
+			<li>
+				<a href="http://entendy.com/Youtube-Mobile-Resize/">Responsive Resize</a>
+			</li>
+			<li>
+				<a href="http://entendy.com/CorpSite/">Portfolio</a>
+			</li>
+		</ul>
+	</div>
 
-<ul class="navbar-nav">
-  <li><a href="http://entendy.com/">Youtube Subscribe Generator</a></li>
-  <li><a href="http://entendy.com/tweet">Thoughts & Prayers Generator</a></li>
-</ul>
-</nav>
+	<div class="pimg1">
+    <div class="ptext">
+  <div><h1>Responsive Mobile Iframe Generator</h1></div>
+    </div>
+  </div>
 
-<div id="side-menu" class="side-nav">
-  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-  <a href="http://entendy.com/">Youtube</a>
-  <a href="http://entendy.com/tweet">Tweet</a>
+	<div id="main">
+		<script type="text/javascript">
+		  function openSlideMenu(){
+		  document.getElementById('side-menu').style.width = '100%';
+		   document.getElementById('main').style.marginLeft = '250px';
+		  }
+
+		  function closeSlideMenu(){
+		  document.getElementById('side-menu').style.width = '0px';
+		   document.getElementById('main').style.marginLeft = '0px';
+		  }
+
+		</script>
 </div>
 
 
+		<div id="content-tech">
 
-<div id="main">
+				<div class="servhead">
+					<h2>Paste your code here</h2>
+				</div>
+
+				<div class="oneserv">
+					<div class="ythd"<h1></h1></div>
+						<form id="tweetForm" class="form1">
+<input type="text" name="tweetTextName" placeholder="<iframe.." id="tweetTextName">
+						</form>
+											</div>
+											<div class="oneserv_button"
+						<button id="tweetGen" class="button1" onclick="myFunction()">Click To Generate Code</button>
+</div>
+
+
+				<div class="twoserv">
+					<textarea id="codeOut" rows="10" cols="120" onclick="this.focus();this.select()" readonly="readonly"></textarea><br>
+				</div>
+
+				<div class="threeserv">
+				<button id="copyBlock1" class="button1">Click To Copy</button> <span id="copyAnswer"></span>
+				</div>
+			</div>
+			<!-- CSS Generator-->
+			<script type="text/javascript">
+				function myFunction() {
+			    var x = document.getElementById("tweetForm");
+			    var text = ' <div class="video-container"> ' + "";
+			    var i
+			    for (i = 0; i < x.length ;i++) {
+			        text += x.elements[i].value + '  '  + ' </div>  <style> .video-container { position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden; } .video-container iframe, .video-container object, .video-container embed { position:absolute; top:0; left:0; width:100%; height:100%; }  </style>';
+			    }
+			    document.getElementById("codeOut").innerHTML = text;
+			}</script>
+
+			<!-- select text-->
+			<script type="text/javascript">
+
+			    function SelectText(element) {
+			    var doc = document,
+			        text = doc.getElementById(element),
+			        range,
+			        selection;
+			    if (doc.body.createTextRange) {
+			        range = document.body.createTextRange();
+			        range.moveToElementText(text);
+			        range.select();
+			    } else if (window.getSelection) {
+			        selection = window.getSelection();
+			        range = document.createRange();
+			        range.selectNodeContents(text);
+			        selection.removeAllRanges();
+			        selection.addRange(range);
+			    }
+			}
+			$(function() {
+			    $('p').click(function () {
+			        SelectText("demo");
+			    });
+			});
+
+			</script>
+			</br>
+
+			<script type="text/javascript">
+			  // Setup the variables
+			var textarea = document.getElementById("codeOut");
+			var answer  = document.getElementById("copyAnswer");
+			var copy    = document.getElementById("copyBlock1");
+			copy.addEventListener('click', function(e) {
+
+			   // Select some text (you could also create a range)
+			   textarea.select();
+
+			   // Use try & catch for unsupported browser
+			   try {
+
+			       // The important part (copy selected text)
+			       var ok = document.execCommand('copy');
+
+			       if (ok) answer.innerHTML = 'Copied!';
+			       else    answer.innerHTML = 'Unable to copy!';
+			   } catch (err) {
+			       answer.innerHTML = 'Unsupported Browser!';
+			   }
+			});
+			</script>
+
+
+<div class="QA" id="QA">
+
+
+<div class="QAH1"><h1>Common Q&As</h1><div>
+
+<button class="accordion"><h3>How to use?</h3></button>
+<div class="panel">
+  <p>Place this code in the HTML editor of your website</p>
+</div>
+
+<button class="accordion"><h3>Does it work with Vimeo or other video iFrames?</h3></button>
+<div class="panel">
+  <p>Yes! It will work with any video iFrame</p>
+</div>
+
+
+<button class="accordion"><h3>Shouldn't CSS be in its own file?</h3></button>
+<div class="panel">
+  <p>If your a web developer here is the css
+	.video-container {
+	 	position: relative;
+	 	padding-bottom: 56.25%;
+	 	padding-top: 30px;
+	 	height: 0;
+	 	overflow: hidden;
+	 }
+	 .video-container iframe, .video-container object, .video-container embed {
+	 	position: absolute;
+	 	top: 0;
+	 	left: 0;
+	 	width: 100%;
+	 	height: 100%;
+	 }
+</p>
+<p>For anyone who just wants a code that works - Your welcome!</p>
+
+</div>
+
+<button class="accordion"><h3>Will you help me troubleshoot?</h3></button>
+<div class="panel">
+  <p>rickyhaswifi @ gmail  </p>
+</div>
+
+
+</div>
 
 <script type="text/javascript">
-function openSlideMenu(){
-  document.getElementById('side-menu').style.width = '250px';
-   document.getElementById('main').style.marginLeft = '250px';
-}
+	var acc = document.getElementsByClassName("accordion");
+var i;
 
-function closeSlideMenu(){
-  document.getElementById('side-menu').style.width = '0px';
-   document.getElementById('main').style.marginLeft = '0px';
-}
-
-</script>
-  <center>
-    <div id="tweetheader">
-<h1>Youtube Mobile iFrame Generator</h1>
-<H2>Copy & Paste Code</H2>
-</div>
-<div id="topads">
-   
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-      </script> <!-- entendy-header -->
-      <ins class="adsbygoogle" data-ad-client="ca-pub-7825991845252848" data-ad-format="auto" data-ad-slot="3304844759" data-full-width-responsive="true" style="display:block"></ins> 
-      <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-</div>
-</div>
-<div id="tweetbody">
-<form id="tweetForm">
-	iFrame: <input type="text" name="tweetTextName" placeholder="iframe.." id="tweetTextName">
-</form>
-</br>
-
-<div>
-<button id="tweetGen" onclick="myFunction()">Click To Generate Code</button>
-</div></br>
-<textarea id="tweetOut" rows="6" cols="70" onclick="this.focus();this.select()" readonly="readonly"></textarea>
-
-<script type="text/javascript">
-	function myFunction() {
-    var x = document.getElementById("tweetForm");
-    var text = ' <div class="video-container"> ' + "";
-    var i
-    for (i = 0; i < x.length ;i++) {
-        text += x.elements[i].value + '  '  + ' </div>  <style> .video-container { position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden; } .video-container iframe, .video-container object, .video-container embed { position:absolute; top:0; left:0; width:100%; height:100%; }  </style>';
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
     }
-    document.getElementById("tweetOut").innerHTML = text;
-}</script>
-
-<!-- select text-->
-<script type="text/javascript">
-    
-    function SelectText(element) {
-    var doc = document,
-        text = doc.getElementById(element),
-        range,
-        selection;
-    if (doc.body.createTextRange) {
-        range = document.body.createTextRange();
-        range.moveToElementText(text);
-        range.select();
-    } else if (window.getSelection) {
-        selection = window.getSelection();        
-        range = document.createRange();
-        range.selectNodeContents(text);
-        selection.removeAllRanges();
-        selection.addRange(range);
-    }
+  });
 }
-$(function() {
-    $('p').click(function () {
-        SelectText("demo");
-    });
-});
-
-</script>
-</br>
-<button id="copyBlock1">Click To Copy</button> <span id="copyAnswer"></span>
-
-<script type="text/javascript">
-  // Setup the variables
-var textarea = document.getElementById("tweetOut");
-var answer  = document.getElementById("copyAnswer");
-var copy    = document.getElementById("copyBlock1");
-copy.addEventListener('click', function(e) {
-
-   // Select some text (you could also create a range)
-   textarea.select(); 
-
-   // Use try & catch for unsupported browser
-   try {
-
-       // The important part (copy selected text)
-       var ok = document.execCommand('copy');
-
-       if (ok) answer.innerHTML = 'Copied!';
-       else    answer.innerHTML = 'Unable to copy!';
-   } catch (err) {
-       answer.innerHTML = 'Unsupported Browser!';
-   }
-});
 </script>
 
-</br>
-</br>
-<div>
+<!--
+					<div id="newsletter">
 
-<!--<div class="image-cropper">
-<img src="https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_400x400.jpg">
-</div>
-<p><i>I use this website every day! <a href="https://twitter.com/realDonaldTrump/status/1012437964373123072" target="_blank">#Incredible</a></i></p>
-</div>
+							<div class="newtext">
+									<h3>Subscribe To Our Newsletter</h3>
+							</div>
+							<div class="newform">
+								<form>
+									<input placeholder="Enter Email..." type="email"> <button class="button_1" type="submit">Subscribe</button>
+								</form>
+							</div>
+						</div>
+					</div>
 -->
-<p>Mobile CSS iFrame Generator for YouTube</p>
 
-<div id="bodyads">
-    <div id="bantop">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-      </script> <!-- entendy-header -->
-      <ins class="adsbygoogle" data-ad-client="ca-pub-7825991845252848" data-ad-format="auto" data-ad-slot="3304844759" data-full-width-responsive="true" style="display:block"></ins> 
-      <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-</div>
-</div>
-</br>
-</div>
-<div id="footer">
-  <p>1235 Digital, LLC. - Code by Ricardo Bautista</p>
-  <p><a href="http://entendy.com/">Youtube Subscribe Link Generator</a> - <a href="http://entendy.com/tweet">Thoughts & Prayers Tweet Generator</a></p>
-</div>
-</center>
+						<div class="footer">
+							<p>© 2018 Ricardo Bautista Digital, LLC</p>
+						</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
-</html>	
-</!DOCTYPE html>
+</html>

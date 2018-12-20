@@ -9,7 +9,8 @@ body, html {
 
 #ads {
   color: black;
-  background-color: #222;
+  background-color: white;
+	border-top: #444 3px solid;
   border-bottom: #444 3px solid;
   width: 100%
   padding: 20px;

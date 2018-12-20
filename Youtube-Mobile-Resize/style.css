@@ -9,7 +9,7 @@ body, html {
 
 #ads {
   color: black;
-  background-color: #f4f4f4;
+  background-color: #222;
   border-bottom: #444 3px solid;
   width: 100%
   padding: 20px;
@@ -75,7 +75,7 @@ body, html {
 
 .pimg1 {
 	background-image:url("images/dallas-1080.jpg");
-	min-height:30%;
+	min-height:50%;
 	background-color: #222;
 }
 
@@ -257,6 +257,30 @@ li {
 	transition-duration: 0.3s;
 }
 
+#button_clear {
+	height: 28px;
+	color: black;
+	background: gold;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition-duration: 0.3s;
+}
+
+#button_clear:hover {
+	height: 28px;
+	color: white;
+	background: #444;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition-duration: 0.3s;
+}
+
 .header {
 	font-family: Arial;
 	color: #00aeef;
@@ -394,10 +418,7 @@ background-image: linear-gradient(-45deg, #ffc200, #fae900);
 /*  CSS Gen CSS */
 
 
-#tweetform, input{
-	height: 30px;
-	width: 550px;
-}
+
 
 .form1 {
   width: 0px;
@@ -499,6 +520,12 @@ height: 100;
 	text-align: center;
 }
 
+.fourserv {
+	grid-column: 4/4;
+	grid-row: 4/4;
+	text-align: center;
+}
+
 }
 
 /* QA STARt*/
@@ -561,6 +588,7 @@ color: white;
 }
 /* QA END*/
 
+
 .footer {
 	font-family: Arial;
 	color: white;
@@ -570,6 +598,19 @@ color: white;
 }
 /* DOESNT DISPLAY MOBILE */
 @media(max-width: 568px) {
+#tweetform, input{
+	height: 30px;
+	width: 365px;
+}
+
+.what {
+	height: 1100px;
+	background-color: #ffc200;
+	color: black;
+	padding: 40px;
+	text-align: center;
+}
+
 	#nav {
 		display: none;
 	}
@@ -586,6 +627,19 @@ color: white;
 }
 /* HIDE THESE FOR DESKTOP*/
 @media(min-width: 568px) {
+
+.what {
+	height: 120%;
+	background-color: #ffc200;
+	color: black;
+	padding: 40px;
+	text-align: center;
+}
+
+	#tweetform, input{
+	height: 30px;
+	width: 500px;
+}
 	.open-slide {
 		display: none;
 	}

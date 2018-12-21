@@ -654,3 +654,32 @@ color: white;
 		display: none;
 	}
 }
+
+/* Super DESKTOP*/
+@media(min-width: 1450px) {
+
+.what {
+	height: 150%;
+	background-color: #ffc200;
+	color: black;
+	padding: 40px;
+	text-align: center;
+}
+
+	#tweetform, input{
+	height: 30px;
+	width: 500px;
+}
+	.open-slide {
+		display: none;
+	}
+	#bantopmobile {
+		display: none;
+	}
+	span.open-side {
+		display: none;
+	}
+	#content-mobile, .contactmobile {
+		display: none;
+	}
+}

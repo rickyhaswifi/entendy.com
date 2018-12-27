@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lifestone Church</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+  		<div id="branding"><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAA7CAYAAAA+XsUpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDBENzMyQzlBRTMxMTFFNEJGNjJCQjhENjY4Q0Y3MjAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDBENzMyQ0FBRTMxMTFFNEJGNjJCQjhENjY4Q0Y3MjAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyRkRFMDhCQUFFMzExMUU0QkY2MkJCOEQ2NjhDRjcyMCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEMEQ3MzJDOEFFMzExMUU0QkY2MkJCOEQ2NjhDRjcyMCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PiRzKBkAAA74SURBVHja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"></a></div>
+  		<div>
+  			<span class="open-side"><a href="#" onclick="openSlideMenu()"><svg height="25" width="25">
+  			<path d="M0,5 30, 5" stroke="#008f01" stroke-width="5"></path>
+  			<path d="M0,14 30, 14" stroke="#008f01" stroke-width="5"></path>
+  			<path d="M0,23 30, 23" stroke="#008f01" stroke-width="5"></path></svg></a></span>
+  		</div>
+  		<div id="nav">
+  			<ul>
+  				<li>
+  					<a href="#about">About</a>
+  				</li>
+  				<li>
+  					<a href="#QA">FAQ</a>
+  				</li>
+  				<li>
+  					<a class="button ghost" href="#locations">Contact</a>
+  				</li>
+  			</ul>
+  		</div>
+  	</div>
+
+  	<div class="side-nav" id="side-menu">
+  		<a class="btn-close" href="#" onclick="closeSlideMenu()">&times;</a>
+  		<ul>
+  			<li>
+  				<a href="index.html">HOME</a>
+  			</li>
+  			<li>
+  				<a href="#about">ABOUT</a>
+  			</li>
+  			<li>
+  				<a href="#reviews">REVIEWS</a>
+  			</li>
+  			<li>
+  				<a class="button ghost" href="#contact">CONTACT</a>
+  			</li>
+  		</ul>
+  	</div>
+
+    <div id="main">
+		<script type="text/javascript">
+		  function openSlideMenu(){
+		  document.getElementById('side-menu').style.width = '100%';
+		   document.getElementById('main').style.marginLeft = '250px';
+		  }
+
+		  function closeSlideMenu(){
+		  document.getElementById('side-menu').style.width = '0px';
+		   document.getElementById('main').style.marginLeft = '0px';
+		  }
+
+		</script>
+</div>
+
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        We're a Bible based church in Riverton, Utah.
+              </span>
+        <p>We would love for you to visit us!</p>
+
+    </div>
+  </div>
+
+  <section class="section section-light">
+    <h2>What We Believe</h2>
+    <h4><strong>Romans 6:23 (NLT)</strong>
+"For the wages of sin is death, but the free gift of God is eternal life through Christ Jesus our Lord."</h4>
+    <p>You are not an accident.  You are the wonderful creation of God.  He made you to love you.  The ultimate expression of this love is dying on a cross in your place for breaking His law.  Everyone has broken His law and is therefore imperfect.  Because God is perfect, we can not be connected with Him in our imperfection or sin.  The payment for your sin and the sin of the world has been PAID IN FULL by the life, death, and resurrection of Jesus.  However, God doesn’t force a relationship and this free gift of forgiveness upon anyone.  Instead God offers it freely to those who accept it.  To accept it you simply place your trust in Jesus alone to save you from spiritual death.  You can do this right now through a simple prayer like this:</p>
+
+<p>“God I admit that I have broken Your law.  I have lived life on my own terms.  I accept Your amazing free gift of forgiveness.  Thank you Jesus for paying my penalty.  I now live for You alone.”</p>
+
+<p>This may seem too easy.  You may feel you don’t deserve this kind of gift.  That is why it is AMAZING grace.  Your salvation is not easy.  It was incredibly painful and difficult, but Jesus did it in your place.  A gift requires nothing more than acceptance from the beneficiary.</p>
+
+<p>This is the best decision you will ever make.  Your next step is to share this decision and connect with others who have trusted Jesus in a Bible based Christian church.  Welcome to God’s family.</p>
+
+<a href="http://www.sbc.net/bfm2000/bfm2000.asp" target="_blank">We affirm the Baptist Faith and Message</a>
+
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        Lifestone Church
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Meet the Pastor</h2>
+    <img src="https://www.lifestonechurch.net/static/helton-family-5c7cd80e56f2cdf4999fc9a067fbffe2-1d729.jpg">
+
+    <p>Ben and Kristen Helton met in college in the panhandle of Texas. After graduating they got married and moved to the Dallas area where Ben attended seminary while Kristen taught elementary music. After serving in churches as a Pastor to Students for 12 years, Ben was asked to start a new church in Weatherford, Texas in 2009. After much prayer and research, the Helton's felt called to start a church in Herriman, Utah, where no Bible-based church had been started before. Ben, Kristen, children Rachel (14), Karis (12), and Jaxson (9), and a team of 3 additional families moved from the Fort Worth area to Herriman in August of 2013 start Lifestone Church. Growing this new church and connecting with new neighbors and friends here in Utah has been an exciting adventure the family has absolutely enjoyed. One of the Heltons' favorite things about Lifestone Church has been the opportunity to closely connect with others and grow spiritually through LifeGroups. It is their desire that you, too, get connected in a LifeGroup this season and experience spiritual growth while forging life-long friendships!</p>
+
+Lifestone Church is supported by <a href="https://www.namb.net/" target="_blank">The North American Mission Board.</a>
+
+  </section>
+
+  <section class="section section-light">
+    <h2>What To Expect</h2>
+    <!-- START QA-->
+<div class="QA" id="QA">
+
+  <button class="accordion"><h3>Teaching</h3></button>
+  <div class="panel">
+    <p>Be encouraged by biblical teaching that is useful in every day living.</p>
+  </div>
+
+<button class="accordion"><h3>Dress</h3></button>
+<div class="panel">
+  <p>Dress comfortably. You’ll feel right at home wearing anything from shorts, to jeans, to business casual.</p>
+</div>
+
+<button class="accordion"><h3>Time frame</h3></button>
+<div class="panel">
+  <p>We have 2 services times on Sunday mornings to choose from: 9:30-10:30 or 11:00-12:00. We recommend arriving about 10-15 minutes early so that you can get your kids checked in and grab some donuts and coffee before the worship service begins.</p>
+  <p>Inside, a Lifestone volunteer will greet you and answer any questions you have about finding Kids Life area, worship area, etc.</p>
+</div>
+
+
+<button class="accordion"><h3>Kid’s Life</h3></button>
+<div class="panel">
+  <p>We encourage you to bring your kiddos (infants through 5th graders) to participate in our fun, safe, kid-friendly activities while you attend the adult service. Kids are very important to us here at Lifestone, and our goal is to teach them about Jesus’ love in a way that they will understand and enjoy!</p>
+</div>
+
+<button class="accordion"><h3>Breakfast</h3></button>
+<div class="panel">
+  <p>For your convenience, a simple breakfast with donuts, coffee, tea, and hot chocolate will be set up for you outside the worship area.</p>
+</div>
+
+<button class="accordion"><h3>Music</h3></button>
+<div class="panel">
+  <p>Come enjoy contemporary praise songs as well as some old hymns with modern arrangements</p>
+</div>
+
+
+</div>
+
+<script type="text/javascript">
+	var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+	<!-- END QA-->
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+        Sundays at 9:30AM & 11:00AM
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h1>About Lifestone Church</h1>
+    <h2 id="life-discovered-life-shared">Life discovered. Life shared.</h2>
+  <div class="css-4mj3c3 css-o5voel0">
+  <div class="css-1hlen9p css-o5voel1">1 John 5:12 NLT</div>
+  &ldquo;Whoever has the Son has life; whoever does not have God&rsquo;s Son does not have life.&rdquo;</div>
+  <p><strong>Mission</strong>: &ldquo;Jesus came and told his disciples, &ldquo;I have been given all authority in heaven and on earth. Therefore, go and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit. Teach these new disciples to obey all the commands I have given you. And be sure of this: I am with you always, even to the end of the age.&rdquo; Matthew 28:18-20 NLT</p>
+  <p><strong>Mission Motto</strong>: Life discovered. Life Shared.</p>
+  <p><strong>Vision</strong>: To establish a local church family committed to loving God, loving people, and sharing with everyone in our community and beyond, real life in Christ.</p>
+  <p><strong>Strategy</strong>:</p>
+  <ul>
+  <li>GET CONNECTED on Sundays at 9:30am or 11:00am.</li>
+  <li>GET HEALTHY by committing to a LifeGroup.</li>
+  <li>GET GOING! Serve, support, meet needs &amp; share Jesus.</li>
+  </ul>
+  <p><strong>Values</strong>:</p>
+  <ul>
+  <li><strong>Focus</strong>&nbsp;&ndash; We will be guided by focusing on the mission Jesus gave His followers and the callings of the church to Evangelism, Ministry, Worship, Discipleship, and Fellowship, aware of our natural tendency to focus on self, those reached, and to slip in to maintenance mode, or busy church programming.</li>
+  <li><strong>Grace</strong>&nbsp;&ndash; We will humbly serve and love one another and both the easy to love and difficult outside our church family. We will humbly submit and support the imperfect leadership of the church and put others first.</li>
+  <li><strong>Joy</strong>&nbsp;&ndash; As we celebrate Jesus and live a life in God&rsquo;s family our lives should be full of authentic joy than is attractive to those without God&rsquo;s peace and forgiveness. We will have fun as a church family.</li>
+  </ul>
+
+  We are partnered with the <a href="https://www.namb.net/" target="_blank">NAMB</a>, the <a href="http://www.uisbc.org/" target="_blank">UISBC</a>, and the <a href="https://slba.org/" target="_blank">Salt Lake Baptist Association</a>.
+
+  </section>
+
+  <section class="section section-light">
+    <h2>Visit Us!</h2>
+  <p> When you’re visiting a church for the first time, there can sometimes be some unknowns. You might be asking, “Where do I go? Where do my kids go? What will the music be like? What will people be wearing? What will the teaching be like? What time will I get out for lunch?”</p>
+<p>These are all valid questions to ask when you visit a new church. Below you will find some helpful information on what to expect when you arrive at a Lifestone Church service. We want your visit to feel as comfortable as possible.</p>
+<h3>Address: 3443 12600 S, Riverton, UT 84065</h3>
+<div id="map"></div>
+  <!-- Replace the value of the key parameter with your own API key. -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoi9li7hUf5sNhwjm3P6v9GAblYnMLLGs&callback=initMap">
+  </script>
+  <!--DESKTOP -->
+  <script>
+  function initMap() {
+    // Styles a map in night mode.
+      var lifestone = {lat: 40.521100, lng: -111.973090};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 40.521100, lng: -111.973090},
+      zoom: 14,
+      styles: []
+    });
+    var marker = new google.maps.Marker({
+      position: lifestone,
+      map: map,
+      title: 'Hello World!'
+    });
+  }
+  </script>
+
+  </section>
+
+  <div class="footer">
+  <p><a href="https://www.facebook.com/lifestonechurchutah/"><i class="fab fa-facebook-square"></i></a></p>
+  </div>
+</body>
+</html>

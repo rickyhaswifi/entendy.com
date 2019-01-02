@@ -9,6 +9,10 @@ body, html{
   scroll-behavior: smooth;
 }
 
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
 
 .header {
 	font-family: Arial;
@@ -25,7 +29,7 @@ body, html{
 .header img {
 	width: 150px;
 	float: left;
-  border-radius: 60%;
+  border-radius: 0%;
 	    position: absolute;
     left: 0px;
     top: 9.4px;

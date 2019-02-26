@@ -4,23 +4,23 @@ require('recaptcha-master/src/autoload.php');
 
 // configure
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'Demo contact form <1235digital@gmail.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <demo@domain.com>';
+$sendTo = 'Demo contact form <rickyhaswifi@gmail.com>';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'Nuevo mensaje de MUSIC';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = 'Su mensaje fue enviado!';
 
 // If something goes wrong, we will display this message.
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$errorMessage = 'Intenta de nuevo por favor';
 
 // ReCaptch Secret
 $recaptchaSecret = '6Ld6FZQUAAAAAAl1kqj1aHf0UT66dmnPUNIdfpv5';

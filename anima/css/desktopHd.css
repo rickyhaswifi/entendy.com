@@ -7,10 +7,10 @@
                           font-family: "ProximaNovaT-Thin";
                           src: url('../fonts/Proxima Nova Thin.otf') format("opentype");
                         }
-                        
+
 .desktophd {
   width               : 100%;
-  min-width           : 1440px;
+  min-width           : 1240px;
   height              : 100vh;
   min-height          : 1024px;
   position            : relative;
@@ -35,6 +35,41 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
+
+.drk {
+  background-color: #7E3BD2;
+  color: white;
+  text-align: justify;
+  padding: 2em;
+  height: 400px;
+  margin: 0;
+}
+
+.lght {
+  background-color: #00BDFF;
+  color: white;
+  text-align: justify;
+  padding: 2em;
+  height: 400px;
+  margin: 0;
+}
+
+.footer {
+  background-color: #222325;
+  color: white;
+  text-align: center;
+  padding: 2em;
+  height: 100px;
+  margin: 0;
+
+}
+
+h4 {
+  font-weight:100;
+color: white;
+letter-spacing: .1em;
+}
+
 .desktophd .gradient {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1362px;
@@ -186,6 +221,19 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+
+.desktophd .nav a{
+  color               : white;
+  text-decoration: none;
+    transition-duration: .5s;
+}
+
+.desktophd .nav a:hover{
+  color               : #7E3BD2;
+  text-decoration: none;
+    transition-duration: .5s;
+}
+
 .desktophd .nav .about {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -210,7 +258,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 134px;
+  left                : 140px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -227,7 +275,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 297px;
+  left                : 257px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -244,7 +292,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 439px;
+  left                : 419px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -339,56 +387,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }

@@ -1,0 +1,406 @@
+
+@font-face {
+                          font-family: "ProximaNova-Semibold";
+                          src: url('../fonts/Proxima Nova Semibold.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "ProximaNovaT-Thin";
+                          src: url('../fonts/Proxima Nova Thin.otf') format("opentype");
+                        }
+                        
+.iphonexsmax {
+  width               : 100%;
+  min-width           : 414px;
+  height              : 100vh;
+  min-height          : 896px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.iphonexsmax .rectangle {
+  background-color    : rgba(0, 188, 254, 1.0);
+  top                 : 0px;
+  height              : 80px;
+  box-sizing          : border-box;
+  width               : 414px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : 816px;
+  width               : 414px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .selectall {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 182px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .selectall .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .selectall .ic1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .replay {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 307px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .replay .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .replay .ic2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 20px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 376px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 307px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .copy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .copy .ic3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 22px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .cut {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 605px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 308px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .cut .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .cut .ic4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .paste {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 376px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .paste .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .paste .ic5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 22px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 95px;
+  height              : 747px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 207px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 257px;
+  height              : 1px;
+  width               : 382px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 486px;
+  height              : 1px;
+  width               : 382px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .linecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 715px;
+  height              : 1px;
+  width               : 382px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.iphonexsmax .navigate {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 171px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.iphonexsmax .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

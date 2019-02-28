@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BEST STEAK • San Diego • As Heard on the Ron Burgandy Podcast</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="images/favicon.png" rel="shortcut icon">
+</head>
+<body>
+  <div class="header">
+  		<div id="branding"><a href="#"><img src="images/logo.png"></a></div>
+  		<div>
+  			<span class="open-side"><a href="#" onclick="openSlideMenu()"><svg height="25" width="25">
+  			<path d="M0,5 30, 5" stroke="#dc5921" stroke-width="5"></path>
+  			<path d="M0,14 30, 14" stroke="#dc5921" stroke-width="5"></path>
+  			<path d="M0,23 30, 23" stroke="#dc5921" stroke-width="5"></path></svg></a></span>
+  		</div>
+  		<div id="nav">
+  			<ul>
+  				<li>
+  					<a href="#menu">Menu</a>
+  				</li>
+  				<li>
+  					<a href="#location">Location</a>
+  				</li>
+  				<li>
+  					<a href="#order">Order Delivery</a>
+  				</li>
+          <li>
+            <a href="tel:+1-559-978-8988">(559) 978-8988</a>
+          </li>
+  			</ul>
+  		</div>
+  	</div>
+
+  	<div class="side-nav" id="side-menu">
+  		<a class="btn-close" href="#" onclick="closeSlideMenu()">&times;</a>
+  		<ul>
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="#location">Location</a>
+        </li>
+        <li>
+          <a href="#order">Order Delivery</a>
+        </li>
+        <li>
+          <a href="tel:+1-801-123-4567">(801) 123-4567</a>
+        </li>
+  		</ul>
+  	</div>
+
+    <div id="main">
+		<script type="text/javascript">
+		  function openSlideMenu(){
+		  document.getElementById('side-menu').style.width = '100%';
+		   document.getElementById('main').style.marginLeft = '250px';
+		  }
+
+		  function closeSlideMenu(){
+		  document.getElementById('side-menu').style.width = '0px';
+		   document.getElementById('main').style.marginLeft = '0px';
+		  }
+
+		</script>
+</div>
+
+  <div class="pimg1">
+    <div class="ptext">
+      <h1><span class="border">Best Steak House</span></h1>
+        <p>in San Diego County since 1965</p>
+    </div>
+  </div>
+
+  <section class="section section-light">
+    <h2>We have never been shut down!</h2>
+
+<p>Our steaks have a unique flavor! - Operated by Jim & Jackie Balbando</p>
+
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark" id="order">
+<h2>Order Pick-up</h2>
+<a href="tel:+1-559-978-8988" class="btn btn-medium btn-orange  btn-radius">(559) 978-8988</a>
+    <h2>Order Delivery Now!</h2>
+    <img src="https://lh3.googleusercontent.com/g_oNJbW0NKSivfYHmTy6ygWJfMCrCXjP1HVelsceuIoVxjJk57nfeAGGXP2hT8wIloOn" width="200px">
+
+    <p>Click here to order to your location!</p>
+<br>
+<a class="btn btn-medium btn-orange  btn-radius" href="" target="_blank">Order</a>
+
+  </section>
+
+  <section class="section section-light" id="menu">
+    <h1>Menu</h1>
+    <h2>"BEST STEAK"</h2>
+    <h3>As heard on the Ron Burgandy Podcast</h3>
+    <img class="ron" src="https://www.thewrap.com/wp-content/uploads/2018/12/WillFerrellRonBurgundy.jpg"></img>
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+
+      </span>
+    </div>
+  </div>
+
+
+
+  <section class="section section-light" id="location">
+    <h2>Visit Us!</h2>
+  <p> Sunday-Thursday 10:00 a.m.-9:00 p.m.</br>
+Friday & Saturday 10:00 a.m.-11:00 p.m.</p>
+<h3>Balbanados Steak House</h3>
+<div id="map"></div>
+  <!-- Replace the value of the key parameter with your own API key. -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoi9li7hUf5sNhwjm3P6v9GAblYnMLLGs&callback=initMap">
+  </script>
+  <!--DESKTOP -->
+  <script>
+  function initMap() {
+    // Styles a map in night mode.
+      var luna = {lat: 32.715736, lng: -117.161087};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 32.715736, lng: -117.161087},
+      zoom: 15,
+      styles: []
+    });
+    var marker = new google.maps.Marker({
+      position: luna,
+      map: map,
+      title: 'Hello World!'
+    });
+  }
+  </script>
+
+  </section>
+
+  <div class="footer">
+    <img src="http://assets.webservices.websitepros.com/images/payopt/v2/discoverlogo.gif">
+    <img src="http://assets.webservices.websitepros.com/images/payopt/v2/mclogo.gif">
+    <img src="http://assets.webservices.websitepros.com/images/payopt/v2/visalogo.gif">
+    <img src="http://assets.webservices.websitepros.com/images/payopt/v2/amex.gif">
+  <p>Hire Me As A Web Designer © Ricardo Bautista Digital, LLC • (559) 978-8988</p>
+  </div>
+</body>
+</html>

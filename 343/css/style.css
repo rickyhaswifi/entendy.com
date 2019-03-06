@@ -1,0 +1,38 @@
+body {
+  background: #111;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  max-width: 1500px;
+  max-width: 1000px;
+  margin: 0 auto 5%;
+  padding: 5%;
+}
+
+.scene {
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-width: 480px) {
+  input[type="text"] {
+      width: 50%;
+      padding: 10px;
+  }
+
+  .container a.btn {
+    padding: 10px 20px;
+  }
+
+  .container span {
+    display: block;
+    margin: 10px 0;
+  }
+  }

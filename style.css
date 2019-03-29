@@ -1,12 +1,33 @@
+/* SMALL */
+@media only screen and (max-width: 768px){
+    .jumboSmall h1{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+}
+/* Else */
+@media only screen and (min-width: 768px){
+    .jumboSmall h1{
+        font-size: 4.5rem;
+        padding: 1rem;
+    }
+
+}
+
 .navbar {
     background-image: linear-gradient(-45deg, #ffc200, #fae900);
 }
 
-
-
 .container-fluid.maxx {
     padding-left: 0px;
     padding-right: 0px; }
+
+    
+    p{
+        text-align: center;
+        text-align-last: center;
+    }
 
 .jumbotron {
     text-align: center;
@@ -50,13 +71,36 @@ button.btnCenter {
     margin-bottom: 20px;
 }
 
-h5.modal-title {
-    margin: auto;
+button.btn-gen{
+    color: white;
+    background-color: #2C376B;
 }
 
-.modalFormWrapper {
-    margin: auto;
-    padding: 2rem;
+button.btn-gen:hover{
+    background-color: rgb(77, 94, 175);
+}
+
+button.btn-copy{
+    color: white;
+    background-color: #2C6B33;
+}
+
+button.btn-copy:hover{
+    background-color: rgb(67, 156, 77);
+}
+
+button.btn-new{
+    color: white;
+    background-color: #c32f10;
+}
+
+button.btn-new:hover{
+    background-color: #dd4122;
+}
+
+
+button:hover{
+    color: white !important;
 }
 
 .imgCenter {
@@ -64,10 +108,6 @@ h5.modal-title {
     margin: auto;
 }
 
-.modal p {
-    margin: auto;
-    padding: 2rem;
-}
 
 .footerImg {
     padding: 15px;
@@ -91,10 +131,6 @@ h5.modal-title {
 
 .socialWrapper {
     margin: auto;
-}
-
-p{
-    text-align: center;
 }
 
 

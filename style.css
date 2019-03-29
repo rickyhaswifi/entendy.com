@@ -164,6 +164,9 @@ button:hover{
 
 /* ADS */
 
+#ads{
+    width: 100%;
+}
 
 @media (max-width: 767px) {
 

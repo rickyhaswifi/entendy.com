@@ -3,6 +3,18 @@
   padding-left: 0px;
   padding-right: 0px; }
 
+  [data-scroll] {
+    transition: all 2s; }
+  
+  [data-scroll="in"] {
+    opacity: 1;
+    transform: translateX(0); }
+  
+  [data-scroll="out"] {
+    opacity: 0;
+    transform: translateX(-200px); }
+  
+
   html,body
   {
     scroll-behavior: smooth;
@@ -10,6 +22,7 @@
       margin: 0px;
       padding: 0px;
       overflow-x: hidden; 
+      background-color: #1b1b1b !important;
   }
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -110,6 +123,8 @@ h2 {
   padding: 0;
   margin: 0;
   text-align: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .colBio{

@@ -1,20 +1,35 @@
+/* GLOBAL */
 .container-fluid.maxx {
   padding-left: 0px;
   padding-right: 0px; }
 
-body {
-    font-family: arial;
-    width: 100%;
+  html,body
+  {
+    scroll-behavior: smooth;
+     
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+  }
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html{
-  scroll-behavior: smooth;
-}
 
 p {
 	font-size: 1.5em;
 text-align: center;
 font-family: monospace;
+}
+
+h2 {
+  font: 1.5em "Arial";
+  text-align: center;
+	text-transform: normal;
 }
 
 /* TOP */
@@ -24,6 +39,22 @@ font-family: monospace;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(-180deg,#1db9bb, #1dbb90);
+}
+
+.welcome h1, .thanksContent h1 {
+  color: #fff;
+  font: 3.5em "Arial";
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.welcome h2 {
+  color: #fff;
+  font: 1.75em "Arial";
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3em;
 }
 
 /* Mouse Styling */
@@ -84,10 +115,21 @@ font-family: monospace;
 .colBio{
   color:white;
   background-color: #1dbb90;
+  text-align: center !important;
+  font-size: 1.5em;
+text-align: center;
+font-family: monospace;
+  
 }
 
-.thanksContent{
-  padding-top: 25%;
+
+ul, li{
+  font: .6em "Arial";
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  line-height: 3em;
+  list-style: none;
 }
 
 
@@ -103,20 +145,15 @@ font-family: monospace;
   }
 }
 
-ul{
-  list-style: none;
-}
-
-/*  */
 
 /* FOOTER CIRCLE */
 #circle {
-	width: 250px;
-	height: 250px;
+  height: 250px;
+  width: 250px;
 	background: url('http://entendy.com/portfolio/images/scroll.jpg') no-repeat left top;
-	border-radius: 50%;
+	border-radius: 50%; 
 	border-style: solid;
-	border-color: #1dbb90;
+	border-color: #1da3bb;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -144,43 +181,31 @@ ul{
 }
 
 .thanksContent{
-  display: block;
-  align-items: center;
-  justify-content: center;
+  position: absolute;   
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);    
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 
-/* header {
-  position: relative;
-  height: 300px;
-  background-image: linear-gradient(180deg,#1dbb90, #1db9bb);
-  margin-bottom: 2rem;
-} */
-
-.welcome h1 {
+.thanksContent h1 {
   color: #fff;
-  font: 4em "Arial";
+  font: 2em "Arial";
   text-align: center;
   text-transform: uppercase;
   font-family: monospace;
 }
 
-.welcome h2 {
+.thanksContent h2 {
   color: #fff;
-  font: 2em "Arial";
+  font: .8em "Arial";
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: .3em;
-}
-
-h2 {
-  font: 1.5em "Arial";
-  text-align: center;
-	text-transform: normal;
-}
-
-header h1 {
-  color: white;
+  letter-spacing: .1em;
+  padding-top: 1rem;
 }
 
 svg {
@@ -203,7 +228,7 @@ svg {
 }
 
 
-.footer {
+footer {
   display: block;
 	font-family: Arial;
 	color: white;
@@ -215,89 +240,35 @@ svg {
 	float: center;
 }
 
-.footer a {
-	color: #def8f7;
-	text-decoration: none;
-	transition-duration: 0.3s;
-}
 
-.footer a:hover {
-	color: #fc0043;
-	text-decoration: underline;
-	transition-duration: 0.3s;
-}
+
 
 /*buttons */
 
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #eee;
-    margin: 2em 0;
-    padding: 0;
-}
-
-h1 > small > a,
-p > a{
-  color: #3CB371;
-  text-decoration: none;
-}
-h1 > small > a:hover,
-p > a:hover{
-  text-decoration: underline;
-}
 
 /* Buttons styles */
-input::-moz-focus-inner,
-button::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
-
-input[type="submit"].btn,
-button.btn {
-    cursor: pointer;
-}
-
-a.btn,.btn {
-  margin-right: 1em; /* remove this while use*/
-  margin-bottom: 1em; /* remove this while use*/
-    display: inline-block;
-    outline: none;
-    *zoom: 1;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 1px;
-    vertical-align: middle;
-    border: 1px solid;
-    transition: all 0.2s ease;
-    box-sizing: border-box;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.01);
-}
-/* Radius */
-
-/* Sizes */
-
 /* Colors */
-.btn-green {
-    color: #1dbb90;
-    border-color: #1db9bb;
+a.conTact{
+  text-decoration: none;
 }
-.btn-green:hover {
-  background: #1db9bb;
-  color: #fff;
-  border-color: #1db9bb;
+a.conTact:hover{
+  text-decoration: none;
+}
+
+button.btn-green {
+  display: block;
+    color: white;
+    background-color:#1CB9B8;
+    margin: auto;
+    width: 300px;
+    text-decoration: none;
+}
+button.btn-green:hover {
+  color: white;
+  background-color: #1dbb90;
+  text-decoration: none;
 }
 
 /* HOVER EFFECTS */

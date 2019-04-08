@@ -1,4 +1,8 @@
 /* GLOBAL */
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
 .container-fluid.maxx {
   padding-left: 0px;
   padding-right: 0px; }
@@ -18,11 +22,10 @@
   html,body
   {
     scroll-behavior: smooth;
-     
       margin: 0px;
       padding: 0px;
       overflow-x: hidden; 
-      background-color: #1b1b1b !important;
+      background-color: #00263F !important;
   }
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -32,17 +35,34 @@
   padding: 0;
 }
 
+hr {
+  background-color: #FFF;
+  width: 80%;
+  margin: auto;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
 
 p {
 	font-size: 1.5em;
 text-align: center;
-font-family: monospace;
 }
 
+
+
 h2 {
-  font: 1.5em "Arial";
+  font-family: 'Oswald', sans-serif;
+  font: 1.5em;
   text-align: center;
 	text-transform: normal;
+}
+
+.welcome h1, .colBio h1 {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  letter-spacing: .2rem;
+  text-align: center;
 }
 
 /* TOP */
@@ -51,20 +71,13 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(-180deg,#1db9bb, #1dbb90);
+  background-image: linear-gradient(180deg,#FBC150, #C83C44, #5C224B, #00263F);
 }
 
-.welcome h1, .thanksContent h1 {
-  color: #fff;
-  font: 3.5em "Arial";
-  text-align: center;
-  text-transform: uppercase;
-  font-family: monospace;
-}
 
 .welcome h2 {
   color: #fff;
-  font: 1.75em "Arial";
+  font: 1.75em;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .3em;
@@ -73,9 +86,9 @@ h2 {
 /* Mouse Styling */
 .mouse {
   display: block;
-  width: 28px;
-  height: 48px;
-  border-radius: 11px 11px 15px 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px 25px;
   border: 1px solid #fff;
   position: absolute;
   left: 50%;
@@ -87,10 +100,11 @@ h2 {
 .mouse span {
   display: block;
   margin: 6px auto;
-  width: 2px;
-  height: 5px;
+  width: 8px;
+  height: 8px;
   border-radius: 4px;
   background: #fff;
+  /* margin-right: 20.2px; */
   border: 1px solid transparent;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -127,13 +141,29 @@ h2 {
   width: 100%;
 }
 
+@media only screen and (max-width: 991px) {
+  .showCaseMobile{
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+    box-sizing: border-box;
+    background-color: #00263F !important;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .showCaseMobile {
+    display: none;
+  }
+}
+
+
 .colBio{
   color:white;
-  background-color: #1dbb90;
+  background-color: #00263F;
   text-align: center !important;
   font-size: 1.5em;
 text-align: center;
-font-family: monospace;
   
 }
 
@@ -168,7 +198,7 @@ ul, li{
 	background: url('http://entendy.com/portfolio/images/scroll.jpg') no-repeat left top;
 	border-radius: 50%; 
 	border-style: solid;
-	border-color: #1da3bb;
+	border-color: #00263F;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -176,7 +206,7 @@ ul, li{
 }
 #circle:hover {
   background-position: -250px 0px;
-  border-color: #1db9bb;
+  border-color: #00263F;
 }
 
 .thanks{
@@ -190,8 +220,6 @@ ul, li{
 .thanks{
   background-image:url("images/scribble-444.jpg");
   height: 100vh;
-	color: white;
-	font-weight: bold;
 	text-shadow: 0 0 2px black;
 }
 
@@ -207,16 +235,17 @@ ul, li{
 
 
 .thanksContent h1 {
+  font-family: 'Oswald', sans-serif;
   color: #fff;
-  font: 2em "Arial";
+  font-size: 1.2rem;
   text-align: center;
   text-transform: uppercase;
-  font-family: monospace;
 }
 
 .thanksContent h2 {
+  font-family: Arial;
   color: #fff;
-  font: .8em "Arial";
+  font-size: .7rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .1em;
@@ -245,9 +274,9 @@ svg {
 
 footer {
   display: block;
-	font-family: Arial;
+  font-family: 'Oswald', sans-serif;
 	color: white;
-	background-image: linear-gradient(#1dbb90, #1db9bb);
+	background-image: linear-gradient(-180deg,#00263F, #1b1b1b);
 	padding: 18px;
 	margin-top: 0px;
 	text-align: center;
@@ -260,10 +289,6 @@ footer {
 
 /*buttons */
 
-
-
-
-/* Buttons styles */
 /* Colors */
 a.conTact{
   text-decoration: none;
@@ -274,20 +299,31 @@ a.conTact:hover{
 
 button.btn-green {
   display: block;
-    color: white;
-    background-color:#1CB9B8;
+    color: #fff;
+    background-color:#C83C44;
     margin: auto;
     width: 300px;
     text-decoration: none;
 }
 button.btn-green:hover {
   color: white;
-  background-color: #1dbb90;
+  background-color: #00263F;
   text-decoration: none;
 }
 
 /* HOVER EFFECTS */
+
+@media only screen and (max-width: 991px) {
+
+  }
+}
+
+@media screen and (min-width: 993px) {
+  
+  }
+}
 .hovereffect {
+  color: #FFF;
   width: 100%;
   height: 100%;
   float: left;
@@ -295,7 +331,7 @@ button.btn-green:hover {
   position: relative;
   text-align: center;
   cursor: default;
-  background: #1b1b1b;
+  background: #5C224B;
 }
 
 .hovereffect .overlay {

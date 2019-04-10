@@ -35,13 +35,28 @@
   padding: 0;
 }
 
+.bioLink {
+  text-decoration: none;
+  color: #C83C44;
+}
+
+.bioLink:hover {
+  text-decoration: none;
+  color: #5C224B;
+}
+
 hr {
-  background-color: #FFF;
-  width: 80%;
+  background-color: #00263F;
+  width: 90%;
   margin: auto;
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+
+.img-thumb{
+  width: 25px;
+
 }
 
 p {
@@ -58,9 +73,16 @@ h2 {
 	text-transform: normal;
 }
 
-.welcome h1, .colBio h1 {
+.welcome h1 {
   font-family: 'Pacifico', cursive;
   color: white;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+
+.colBio h1 {
+  font-family: 'Pacifico', cursive;
+  color: #5C224B;
   letter-spacing: .2rem;
   text-align: center;
 }
@@ -71,7 +93,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(180deg,#FBC150, #C83C44, #5C224B, #00263F);
+  background-image: linear-gradient(360deg,#FBC150, #C83C44, #5C224B, #00263F);
 }
 
 
@@ -89,7 +111,7 @@ h2 {
   width: 50px;
   height: 50px;
   border-radius: 25px 25px;
-  border: 1px solid #fff;
+  border: 1px solid #00263F;
   position: absolute;
   left: 50%;
   bottom: 15%;
@@ -103,7 +125,7 @@ h2 {
   width: 8px;
   height: 8px;
   border-radius: 4px;
-  background: #fff;
+  background: #00263F;
   /* margin-right: 20.2px; */
   border: 1px solid transparent;
   -webkit-animation-duration: 1s;
@@ -143,11 +165,11 @@ h2 {
 
 @media only screen and (max-width: 991px) {
   .showCaseMobile{
-    color: white;
+    color: #00263F;
     padding-top: 2rem;
     padding-bottom: 2rem; 
     box-sizing: border-box;
-    background-color: #00263F !important;
+    background-color: #FBC150 !important;
   }
 }
 
@@ -159,8 +181,8 @@ h2 {
 
 
 .colBio{
-  color:white;
-  background-color: #00263F;
+  color:#00263F;
+  background-color: #FBC150;
   text-align: center !important;
   font-size: 1.5em;
 text-align: center;
@@ -314,12 +336,17 @@ button.btn-green:hover {
 /* HOVER EFFECTS */
 
 @media only screen and (max-width: 991px) {
+.showCase {
+  display: none;
+}
 
   }
 }
 
 @media screen and (min-width: 993px) {
-  
+  .showCaseMobile {
+    display: none;
+  }
   }
 }
 .hovereffect {

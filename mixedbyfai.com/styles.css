@@ -91,10 +91,51 @@ h1, h2{
     }
   }
 
+  hr {
+    background-color: #1b1b1b;
+    width: 80%;
+    margin: auto;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+
+  .fbFrame{
+      width: 100% !important;
+  }
+
   footer{
       padding: 15px;
       color: #999999;
       text-align: center;
   }
 
- 
+button.button-pill{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-image:radial-gradient(#E56D73,#B7464B);
+}
+
+button.button-pill:hover{
+    background-image:radial-gradient(#E8767A,#B00605);
+}
+
+ .faCircle {
+    color:#FED6D3;
+}
+
+.faCircle:hover {
+    color:#6E0602;
+
+}
+
+.fa-instagram {
+    color:#c32f10;
+    transition-duration: .3s;
+}
+
+.fa-instagram:hover {
+    color:#da3514;
+    transition-duration: .3s;
+}

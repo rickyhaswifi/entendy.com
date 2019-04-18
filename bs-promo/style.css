@@ -1,0 +1,274 @@
+/* SMALL */
+@media only screen and (max-width: 768px){
+    .jumboSmall h1{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+}
+/* Else */
+@media only screen and (min-width: 768px){
+    .jumboSmall h1{
+        font-size: 4.5rem;
+        padding: 1rem;
+    }
+
+}
+
+.navbar {
+    background-image: linear-gradient(-45deg, #ffc200, #fae900);
+}
+
+.container-fluid.maxx {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+    
+    p{
+        margin-top: 1rem;
+        text-align: center;
+        text-align-last: center;
+    }
+
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: aquamarine;
+    padding: 20px 20px;
+}
+
+.sectionLight {
+     text-align: justify;
+    background-color: #f4f4f4;
+    padding: 2rem;
+}
+
+.sectionDark{
+    color: white;
+    background-color: #343A40;
+    padding: 2rem;
+}
+
+.coolStuffWrapper {
+    margin-top: 20px;
+    padding: 2rem;
+}
+
+button.coolStuffBtn {
+    display: block;
+    margin: auto;
+    background-color: red;
+    color: #fff;
+}
+
+button.btnCenter {
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+button.btn-gen{
+    color: white;
+    background-color: #2C376B;
+}
+
+button.btn-gen:hover{
+    background-color: rgb(77, 94, 175);
+}
+
+button.btn-copy{
+    color: white;
+    background-color: #2C6B33;
+}
+
+button.btn-copy:hover{
+    background-color: rgb(67, 156, 77);
+}
+
+button.btn-new{
+    color: white;
+    background-color: #c32f10;
+}
+
+button.btn-new:hover{
+    background-color: #dd4122;
+}
+
+
+button:hover{
+    color: white !important;
+}
+
+.imgCenter {
+    display: block;
+    margin: auto;
+}
+
+
+.footerImg {
+    padding: 15px;
+}
+
+
+.fa-youtube {
+    color:#c32f10;
+    transition-duration: .3s;
+}
+
+.fa-youtube:hover {
+    color:#da3514;
+    transition-duration: .3s;
+}
+
+
+.fab {
+    margin: 10px;
+}
+
+.socialWrapper {
+    margin: auto;
+}
+
+
+.btnYT{
+    margin: auto;
+    margin-top: .5rem;
+    width: 100%;
+    padding: .5rem;
+}
+
+.shortLinkSection{
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+#ytbutton{
+    text-align: -webkit-center;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prow{
+    padding: .5rem;
+    text-align: justify;
+    text-align-last: center;
+    margin: auto;
+}
+
+/* ADS */
+
+#ads{
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+
+    /*.hidden-xs { display: none!important; } */
+    .mrec-xs { width:300px; height:250px; }
+    .leaderboard-xs { width:728px; height:90px; }
+    .mobile-xs { width:320px; height:50px; }
+    .skyscraper-xs { width:120px; height:600px; }
+    .banner-xs { width:468px; height:60px; }
+    }
+    
+    /* small */
+    @media (min-width: 768px) and (max-width: 991px) {
+    
+    /*.hidden-sm { display: none!important; } */
+    .mrec-sm { width:300px; height:250px; }
+    .leaderboard-sm { width:728px; height:90px; }
+    .mobile-sm { width:320px; height:50px; }
+    .skyscraper-sm { width:120px; height:600px; }
+    .banner-sm { width:468px; height:60px; }
+    }
+    
+    /* medium */
+    @media (min-width: 992px) and (max-width: 1199px) {
+    
+    /*.hidden-md { display: none!important; } */
+    .mrec-md { width:300px; height:250px; }
+    .leaderboard-md { width:728px; height:90px; }
+    .mobile-md { width:320px; height:50px; }
+    .skyscraper-md { width:120px; height:600px; }
+    .banner-md { width:468px; height:60px; }
+    }
+    
+    /* large */
+    @media (min-width: 1200px) {
+    
+    /*.hidden-lg { display: none!important; } */
+    .mrec-lg { width:300px; height:250px; }
+    .leaderboard-lg { width:728px; height:90px; }
+    .mobile-lg { width:320px; height:50px; }
+    .skyscraper-lg { width:120px; height:600px; }
+    .banner-lg { width:468px; height:60px; }
+    }
+
+   /* PROMO START */
+
+   .canvasHolder{
+       padding: 2rem;
+       margin-bottom: 200px;
+       justify-content: center;
+    text-align: center;
+   }
+
+  canvas {
+    display: block;
+	width:800px;
+	height:800px;
+	background-image:linear-gradient(45deg,#1b1b1b,rgb(92, 35, 37));
+    color: gold;
+    margin: auto;
+}
+
+.canvasH1{
+    margin-top:-750px;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    position: relative; 
+	text-align: center;
+	color: white;
+}
+
+.canvasHolder img{
+	position: relative;
+	left: 0;
+    right: 0;	
+    margin-top: 50%;
+	margin: auto 0;
+	border: 3px gold;
+}
+
+.formSubmit {
+	display: block;
+	padding: 20px;
+}
+
+div.stores {
+    z-index: 2;
+    left: 0;
+    right: 0;
+    position: relative;
+    margin-left: auto 0;
+  margin-right: auto 0;
+	margin-top: 3%;
+}
+
+.icons{
+width: 50px;
+padding: 5px;
+}
+
+.downloadButtons{
+    margin-top: 5%;
+}

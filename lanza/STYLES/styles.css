@@ -1,0 +1,73 @@
+.navnav {
+    background-color: #254320 !important;
+    color: #EEE9C3 !important; }
+  
+  .navnav a {
+    color: #EEE9C3 !important; }
+
+ .card{
+   background-clip: #f4f4f4 !important;
+   border-radius: 0 25px 0 25px !important;
+     margin: auto;
+ }   
+
+
+.card-body {
+  padding: 0 !important;
+}
+
+.rowStore{
+  margin-top: auto;
+  margin-bottom:auto; 
+}
+
+.footerP{
+  color: #EEE9C3;
+}
+  
+  .secInput {
+    background: linear-gradient(45deg,#1b1b1b,rgb(24, 44, 44));
+    margin: auto 0;
+    text-align: center;
+    color: #1b1b1b;
+    padding-top: 5rem; }
+  
+  .secResult {
+    background-color: #0B4178;
+    margin: auto;
+    text-align: center;
+    color: #EEE9C3;
+    padding-top: 200px; }
+  
+  section {
+    height: 150vh;
+    width: 100%; }
+  
+  html, body {
+    scroll-behavior: smooth;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow-x: hidden; }
+  
+  .salSubmit {
+    background-color: #0B4178;
+    color: #EEE9C3;
+    margin-top: 2rem; }
+  
+  .resultNumber {
+    color: #E8B391;
+    font-weight: 800 !important;
+    font-size: 5em !important; }
+  
+  .container-fluid.maxx {
+    padding-left: 0px;
+    padding-right: 0px; }
+  
+  hr {
+    background-color: #EEE9C3;
+    width: 50%;
+    margin: auto;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible; }
+  

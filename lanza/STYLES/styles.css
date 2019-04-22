@@ -26,7 +26,6 @@
 }
   
   .secInput {
-    background: linear-gradient(45deg,#1b1b1b,rgb(24, 44, 44));
     margin: auto 0;
     text-align: center;
     color: #1b1b1b;
@@ -40,10 +39,10 @@
     padding-top: 200px; }
   
   section {
-    height: 150vh;
     width: 100%; }
   
   html, body {
+      background: linear-gradient(45deg,#1b1b1b,rgb(24, 44, 44));
     scroll-behavior: smooth;
     padding-left: 0rem;
     padding-right: 0rem;
